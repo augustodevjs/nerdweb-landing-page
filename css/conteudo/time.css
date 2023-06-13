@@ -1,0 +1,34 @@
+.time-bg {
+  background: url('/imgs/bg\ time.png');
+  height: 402px;
+  background-position: center;
+  background-size: cover;
+  margin-top: 71px;
+}
+
+.time-bg div {
+  margin-left: 109px;
+}
+
+.time-bg div h1 {
+  font-size: 32px;
+  color: #033244;
+  padding-bottom: 24px;
+  width: 611px;
+  padding-top: 82px;
+}
+
+.time-bg div p {
+  width: 533px;
+  color: #005271;
+  margin-bottom: 60px;
+  font-size: 18px;
+}
+
+.time-bg div button {
+  padding: 10px 35px;
+  background-color: #71D8FF;
+  color: #033244;
+  font-weight: 900;
+  text-transform: uppercase;
+}

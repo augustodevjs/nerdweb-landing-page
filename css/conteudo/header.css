@@ -1,0 +1,35 @@
+.header-bg {
+    background-color: var(--white);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 20px;
+}
+
+.header-menu-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-menu {
+    display: flex;
+    gap: 25px;
+    margin-left: 59px;
+}
+
+.header-menu-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-menu-right span {
+    margin-right: 30px;
+}
+
+.header-menu-right .group-icon {
+    display: flex;
+    gap: 30px;
+}

@@ -1,0 +1,32 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 64px;
+}
+
+
+.border-line {
+    border: 1px solid #00AEEF;
+    margin-top: 80px;
+}
+
+.grid .text p {
+    font-size: 16px;
+    color: #2C3A2F;
+    font-weight: 900;
+    margin-bottom: 25px;
+    margin-top: 28px;
+    width: 536px;
+}
+
+.grid .text span {
+    font-size: 15px;
+    color: #2C3A2F;
+    width: 536px;
+}
+
+.grid .fotos {
+    display: flex;
+    gap: 42px;
+}

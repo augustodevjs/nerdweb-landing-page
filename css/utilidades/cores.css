@@ -1,0 +1,52 @@
+:root {
+    --white: '#ffffff';
+    --light-blue: #F8FCFE;
+    --ice-blue: #E2F7FF;
+    --aqua: #00AEEF;
+    --baby-blue: #71D8FF;
+    --pale-blue: #B2EAFF;
+    --teal: #005271;
+    --sky-blue: #0089BC;
+    --dark-blue: #283137;
+    --navy-blue: #033244;
+}
+
+.white {
+    color: var(--white)
+}
+
+.light-blue {
+    color: var(--light-blue);
+}
+
+.ice-blue {
+    color: var(--ice-blue);
+}
+
+.aqua {
+    color: var(--aqua);
+}
+
+.baby-blue {
+    color: var(--baby-blue);
+}
+
+.pale-blue {
+    color: var(--pale-blue);
+}
+
+.teal {
+    color: var(--teal);
+}
+
+.sky-blue {
+    color: var(--sky-blue);
+}
+
+.dark-blue {
+    color: var(--dark-blue);
+}
+
+.navy-blue {
+    color: var(--navy-blue);
+}

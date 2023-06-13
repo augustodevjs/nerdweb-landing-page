@@ -1,0 +1,44 @@
+.servicos h2 {
+    font-size: 32px;
+    text-align: center;
+    color: #2C3A2F;
+    margin-bottom: 10px;
+    margin-top: 80px;
+}
+
+.servicos .selecao {
+    text-align: center;
+    font-size: 20px;
+    color: #0089BC;
+    margin-bottom: 40px;
+}
+
+.servicos-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 76px;
+}
+
+.card .content {
+    background-color: #283137;
+    padding: 24px;
+}
+
+.card .content h3 {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.card .content p {
+    font-size: 16px;
+    color: #E2F7FF;
+    margin-bottom: 40px;
+}
+
+.card .content a {
+    color: #00AEEF;
+    font-size: 14px;
+    text-transform: uppercase;
+}

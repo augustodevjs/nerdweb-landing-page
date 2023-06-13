@@ -1,0 +1,32 @@
+.visao-bg {
+    background: url('/imgs/BG\ CONHEÇA.png');
+    height: 399px;
+    background-position: center;
+    background-size: cover;
+}
+
+.visao-bg div {
+    margin-left: 109px;
+}
+
+.visao-bg h1 {
+    font-size: 32px;
+    color: white;
+    width: 551px;
+    padding-top: 71px;
+    padding-bottom: 16px;
+}
+
+.visao-bg p {
+    width: 607px;
+    font-size: 20px;
+    color: #71D8FF;
+    padding-bottom: 50px;
+}
+
+.visao-bg button {
+    padding: 10px 35px;
+    background-color: #0089BC;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}

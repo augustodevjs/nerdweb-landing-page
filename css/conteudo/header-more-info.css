@@ -1,0 +1,15 @@
+.header-more-info-bg {
+  background-color: var(--navy-blue);
+}
+
+.header-more-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 20px;
+}
+
+.header-menu-more-info {
+  display: flex;
+  gap: 33px;
+  align-items: center;
+}
