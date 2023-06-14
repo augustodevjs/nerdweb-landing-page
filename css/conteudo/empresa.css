@@ -12,8 +12,6 @@
 
 .empresa-container .content h2 {
   color: #033244;
-  font-size: 32px;
-  font-weight: 900;
   width: 312px;
 }
 
@@ -22,13 +20,12 @@
 }
 
 .empresa-container .content button {
-  font-size: 14px;
   margin-top: 40px;
   width: 200px;
   padding: 10px 35px;
   background-color: #71D8FF;
   color: #033244;
-  font-weight: 900;
+  border: none;
   text-transform: uppercase;
 }
 
@@ -48,10 +45,10 @@
 .empresa-container .empresa-images-info .card h3 {
   text-align: center;
   color: #101912;
-  font-size: 16px;
 }
 
 .empresa-container .empresa-images-info .card p {
   text-align: center;
   margin-top: 11px;
+  color: #101912;
 }

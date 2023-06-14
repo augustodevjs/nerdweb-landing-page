@@ -13,3 +13,21 @@
   gap: 33px;
   align-items: center;
 }
+
+.header-menu-more-info li a {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.header-more-info-search input::placeholder {
+  color: #B2EAFF;
+  opacity: 0.5;
+}
+
+.header-more-info-search input {
+  background: #033244 0% 0% no-repeat padding-box;
+  border: 1px solid #00AEEF;
+  border-radius: 8px;
+  opacity: 1;
+  padding: 12px 15px;
+}

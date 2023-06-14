@@ -5,6 +5,16 @@ body {
     height: 300vh;
   }
 
+  @font-face {
+    font-family: "ArcherProBold";
+    src: url('/fonts/ArcherPro\ Bold.otf');
+  }
+
+  @font-face {
+    font-family: "ArcherPro";
+    src: url('/fonts/Archer\ Book.otf');
+  }
+
   html {
     scroll-behavior: smooth;
   }

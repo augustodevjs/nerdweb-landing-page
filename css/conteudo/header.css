@@ -27,9 +27,14 @@
 
 .header-menu-right span {
     margin-right: 30px;
+    color: #000000;
 }
 
 .header-menu-right .group-icon {
     display: flex;
     gap: 30px;
+}
+
+.header-menu li a {
+    color: #2C3A2F;
 }

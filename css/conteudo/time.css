@@ -11,7 +11,6 @@
 }
 
 .time-bg div h1 {
-  font-size: 32px;
   color: #033244;
   padding-bottom: 24px;
   width: 611px;
@@ -22,13 +21,12 @@
   width: 533px;
   color: #005271;
   margin-bottom: 60px;
-  font-size: 18px;
 }
 
 .time-bg div button {
   padding: 10px 35px;
   background-color: #71D8FF;
   color: #033244;
-  font-weight: 900;
   text-transform: uppercase;
+  border: none;
 }

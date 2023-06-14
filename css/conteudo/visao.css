@@ -10,8 +10,9 @@
 }
 
 .visao-bg h1 {
-    font-size: 32px;
-    color: white;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
     width: 551px;
     padding-top: 71px;
     padding-bottom: 16px;
@@ -19,14 +20,18 @@
 
 .visao-bg p {
     width: 607px;
-    font-size: 20px;
+    letter-spacing: 0px;
     color: #71D8FF;
+    opacity: 1;
     padding-bottom: 50px;
 }
 
 .visao-bg button {
     padding: 10px 35px;
     background-color: #0089BC;
+    letter-spacing: 0px;
     color: #FFFFFF;
     text-transform: uppercase;
+    opacity: 1;
+    border: none;
 }

@@ -5,15 +5,15 @@
     gap: 64px;
 }
 
-
 .border-line {
     border: 1px solid #00AEEF;
     margin-top: 80px;
 }
 
 .grid .text p {
-    font-size: 16px;
+    letter-spacing: 0px;
     color: #2C3A2F;
+    opacity: 1;
     font-weight: 900;
     margin-bottom: 25px;
     margin-top: 28px;
@@ -21,7 +21,7 @@
 }
 
 .grid .text span {
-    font-size: 15px;
+    letter-spacing: 0px;
     color: #2C3A2F;
     width: 536px;
 }

@@ -13,9 +13,9 @@
 
 .footer .nerdweb h2, .footer .ajuda h2, .footer .atendimento h2, .footer .horario h2{
     color: #E2F7FF;
-    font-size: 18px;
-    font-weight: 900;
-    text-transform: uppercase;
+    letter-spacing: 0px;
+    color: #E2F7FF;
+    opacity: 1;
 }
 
 .footer .horario h2 {
@@ -30,16 +30,17 @@
 }
 
 .footer div ul li {
-    font-size: 14px;
+    letter-spacing: 0px;
     color: #00AEEF;
-    font-weight: normal;
+    opacity: 1;
 }
 
 .footer .horario p {
     margin-top: 22px;
     width: 163px;
+    letter-spacing: 0px;
     color: #B2EAFF;
-    font-size: 14px;
+    opacity: 1;
 }
 
 .copyright {
@@ -49,8 +50,9 @@
 
 .copyright p {
     margin-top: 20px;
-    font-size: 14px;
+    letter-spacing: 0px;
     color: #E1E1E1;
+    opacity: 1;
 }
 
 .copyright .social {
@@ -58,8 +60,9 @@
 }
 
 .copyright .social h2 {
-    font-size: 20px;
+    letter-spacing: 0px;
     color: #71D8FF;
+    opacity: 1;
     margin-bottom: 15px;
 }
 

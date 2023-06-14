@@ -13,16 +13,17 @@
 
 .contact-container .content h2 {
     width: 312px;
-    font-size: 32px;
+    letter-spacing: 0px;
     color: #033244;
-    font-weight: 900;
+    opacity: 1;
     margin-bottom: 16px;
 }
 
 .contact-container .content p {
     width: 312px;
-    font-size: 20px;
+    letter-spacing: 0px;
     color: #0089BC;
+    opacity: 1;
 }
 
 .contact-container .form div {
@@ -32,14 +33,22 @@
     gap: 15px;
 }
 
-.contact.contact .form div input {
+.contact .form div input {
     padding: 10px;
 }
 
-.contact.contact .form button {
+.contact .form div input::placeholder {
+    letter-spacing: 0px;
+    color: #005271;
+    opacity: 1;
+}
+
+.contact .form button {
     padding: 10px 35px;
-    background-color: #71D8FF;
+    letter-spacing: 0px;
     color: #033244;
-    font-weight: 900;
     text-transform: uppercase;
+    background: #71D8FF;
+    border: none;
+    opacity: 1;
   }

@@ -1,6 +1,5 @@
 .produtos h2 {
   text-align: center;
-  font-size: 32px;
   color: #033244;
   margin-bottom: 40px;
   margin-top: 70px;
@@ -19,12 +18,11 @@
 .produtos button {
   text-align: center;
   margin: auto;
-  font-size: 14px;
   margin-top: 40px;
   padding: 10px 35px;
   background-color: #71D8FF;
   color: #033244;
-  font-weight: 900;
   text-transform: uppercase;
   margin-bottom: 80px;
+  border: none;
 }
