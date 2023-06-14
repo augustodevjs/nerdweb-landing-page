@@ -1,0 +1,57 @@
+.empresa-container {
+  display: grid;
+  grid-template-columns: 312px 1fr;
+  margin-top: 75px;
+}
+
+.empresa-container .content {
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid #71D8FF;
+}
+
+.empresa-container .content h2 {
+  color: #033244;
+  font-size: 32px;
+  font-weight: 900;
+  width: 312px;
+}
+
+.empresa-container .content h2 span {
+  color: #00AEEF;
+}
+
+.empresa-container .content button {
+  font-size: 14px;
+  margin-top: 40px;
+  width: 200px;
+  padding: 10px 35px;
+  background-color: #71D8FF;
+  color: #033244;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.empresa-container .empresa-images-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+  margin-left: 55px;
+}
+
+.empresa-container .empresa-images-info .card {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 1px 3px 10px #00000014;
+  padding: 30px;
+}
+
+.empresa-container .empresa-images-info .card h3 {
+  text-align: center;
+  color: #101912;
+  font-size: 16px;
+}
+
+.empresa-container .empresa-images-info .card p {
+  text-align: center;
+  margin-top: 11px;
+}

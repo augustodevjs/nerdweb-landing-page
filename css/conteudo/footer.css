@@ -1,130 +1,69 @@
 .footer-bg {
-    background-color: var(--cor-c12);
-    padding: 40px 0 60px 0;
+    background-color: #283137;
+    padding: 49px 0 46px 0;
+    margin-top: 105px;
 }
 
 .footer {
-    padding: 80px 20px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr   1fr;
-    gap: 40px;
+    grid-template-columns: 361px 1fr 1fr 1fr 1fr;
+    padding-bottom: 134px;
+    border-bottom: 2px solid #E1E1E1;
 }
 
-.contacts img {
-    margin-bottom: 40px;
+.footer .nerdweb h2, .footer .ajuda h2, .footer .atendimento h2, .footer .horario h2{
+    color: #E2F7FF;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
-.photos img {
-    width: 100%;
-    height: 100%;
-    background-size: contain;
+.footer .horario h2 {
+    width: max-content;
 }
 
-.contacts li + li {
-    margin-top: 24px;
-}
-
-.location, .email, .phone {
+.footer div ul {
     display: flex;
-    align-items: center;
-    margin-left: 25px;
-    position: relative;
-    padding-left: 5px ;
-}
-
-.location::before, .email::before, .phone::before {
-    content: '';
-    display: inline;
-    position: absolute;
-}
-
-.location::before {
-    background-image: url('/icones/location-white.svg');
-    width: 24px;
-    height: 24px;
-    top: 0;
-    left: -30px;
-}
-
-.email::before {
-    background-image: url('/icones/message-white.svg');
-    left: -30px;
-    width: 24px;
-    height: 17px;
-}
-
-.phone::before {
-    background-image: url('/icones/phone-white.svg');
-    width: 18px;
-    height: 20px;
-    left: -28px;
-    top: 0;
-}
-
-.innerLinks h2 {
-    margin-bottom: 40px;
-}
-
-.innerLinks ul li  {
-    margin-bottom: 16px;
-}
-
-.innerLinks ul a:hover {
-    color: var(--cor-w);
-}
-
-.flick-photos h2 {
-    margin-bottom: 40px;
-}
-
-.photos {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: column;
     gap: 10px;
+    margin-top: 20px;
 }
 
-.photos img {
-    width: 100%;
-    object-fit: cover;
+.footer div ul li {
+    font-size: 14px;
+    color: #00AEEF;
+    font-weight: normal;
 }
 
-.socials h2 {
-    margin-bottom: 40px;
+.footer .horario p {
+    margin-top: 22px;
+    width: 163px;
+    color: #B2EAFF;
+    font-size: 14px;
 }
 
-.icons {
+.copyright {
     display: flex;
-    gap: 32px;
+    justify-content: space-between;
 }
 
-.icons img {
-    width: 32px;
+.copyright p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #E1E1E1;
 }
 
-.footer-copy {
+.copyright .social {
+    margin-top: 20px;
+}
+
+.copyright .social h2 {
+    font-size: 20px;
+    color: #71D8FF;
+    margin-bottom: 15px;
+}
+
+.copyright .social .social-images {
     display: flex;
-    justify-content: center;
-    padding: 0 20px;
-    color: var(--cor-c5);
-}
-
-@media(max-width:990px) {
-    .footer {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media(max-width:530px) {
-    .footer {
-        grid-template-columns: 1fr;
-        padding: 80px 20px 60px 20px;
-    }
-
-    .footer-copy {
-        justify-content: flex-start;
-    }
-
-    .contacts img, .innerLinks h2, .flick-photos h2, .socials h2 {
-        margin-bottom: 32px;
-    }
+    gap: 28px
 }
