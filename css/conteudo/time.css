@@ -1,20 +1,21 @@
+.time {
+  margin-bottom: 80px;
+}
+
 .time-bg {
   background: url('/imgs/bg\ time.png');
-  height: 402px;
   background-position: center;
   background-size: cover;
-  margin-top: 71px;
 }
 
 .time-bg div {
-  margin-left: 109px;
+  padding: 71px 0 100px 109px;
 }
 
-.time-bg div h1 {
+.time-bg div h2 {
   color: #033244;
   padding-bottom: 24px;
   width: 611px;
-  padding-top: 82px;
 }
 
 .time-bg div p {
@@ -23,10 +24,46 @@
   margin-bottom: 60px;
 }
 
-.time-bg div button {
-  padding: 10px 35px;
-  background-color: #71D8FF;
-  color: #033244;
-  text-transform: uppercase;
-  border: none;
+@media(max-width: 750px) {
+  .time {
+    margin-bottom: 60px;
+  }
+
+  .time-bg {
+    background-position: left;
+    background-size: cover;
+  }
+
+  .time-bg div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 64px;
+  }
+
+  .time-bg div h2 {
+    padding-bottom: 17px;
+    width: 100%;
+  }
+
+  .time-bg div p {
+    margin-bottom: 32px;
+    width: 100%;
+  }
+}
+
+@media(max-width: 450px) {
+  .time-bg h2 {
+      font: normal normal 900 24px/26px Roboto Slab;
+  }
+
+  .time-bg p {
+      font: normal normal 500 18px/20px Roboto Slab;
+  }
+
+  .time-bg div {
+      padding: 40px 20px;
+  }
 }

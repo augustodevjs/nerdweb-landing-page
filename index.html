@@ -6,11 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NerdWeb</title>
 
-    <link rel="stylesheet" href="css/utilidades/global.css" />
-    <link rel="stylesheet" href="css/utilidades/cores.css" />
-    <link rel="stylesheet" href="css/utilidades/tipografia.css" />
-    <link rel="stylesheet" href="css/utilidades/animacao.css" />
-
     <link rel="stylesheet" href="css/conteudo/header.css" />
     <link rel="stylesheet" href="css/conteudo/header-more-info.css" />
     <link rel="stylesheet" href="css/conteudo/nerdweb.css" />
@@ -22,6 +17,18 @@
     <link rel="stylesheet" href="css/conteudo/footer.css" />
     <link rel="stylesheet" href="css/conteudo/empresa.css" />
     <link rel="stylesheet" href="css/conteudo/produtos.css" />
+    <link rel="stylesheet" href="css/utilidades/global.css" />
+    <link rel="stylesheet" href="css/utilidades/tipografia.css" />
+    <link rel="stylesheet" href="css/utilidades/animacao.css" />
+    <link rel="stylesheet" href="css/utilidades/cores.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,7 +38,7 @@
     />
   </head>
   <body>
-    <header class="header-bg">
+    <!-- <header class="header-bg">
       <div class="header container">
         <div class="header-menu-left">
           <a href="https://stevan-klafer-portfolio.netlify.app/"
@@ -109,6 +116,7 @@
             type="text"
             placeholder="Digite sua pesquisa"
           />
+          <i class="fas fa-search"></i>
         </div>
       </div>
     </header>
@@ -178,18 +186,22 @@
       </button>
     </section>
 
-    <section>
+    
+  -->
+    <section class="time">
       <div class="container time-bg">
         <div>
-          <h1 class="font-roboto-slab-ultra-bold-32px-43px">
+          <h2 class="font-roboto-slab-ultra-bold-32px-43px">
             Faça parte do nosso time de nerds
-          </h1>
+          </h2>
           <p class="font-roboto-slab-bold-18px">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
             erat, sed diam voluptua.
           </p>
-          <button class="font-roboto-slab-ultra-bold-14px">CADASTRE-SE</button>
+          <button class="font-roboto-slab-ultra-bold-14px btn-color-black">
+            Cadastre-se
+          </button>
         </div>
       </div>
     </section>
@@ -245,7 +257,7 @@
       </div>
     </section>
 
-    <section>
+    <section class="visao">
       <div class="container visao-bg">
         <div>
           <h1 class="font-roboto-slab-ultra-bold-32px">
@@ -255,17 +267,17 @@
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor
           </p>
-          <button class="font-roboto-slab-ultra-bold-14px">
+          <button class="font-roboto-slab-ultra-bold-14px btn-color-white">
             IR PARA SOBRE
           </button>
         </div>
       </div>
     </section>
 
-    <section>
+    <section class="info">
       <div class="container">
-        <div class="border-line"></div>
-        <div class="grid">
+        <div class="line"></div>
+        <div class="info-content">
           <div class="text">
             <p class="font-roboto-slab-ultra-bold-16px">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
@@ -287,27 +299,17 @@
               voluptua. At vero eos et accusam et.</span
             >
           </div>
-          <div class="fotos">
-            <img width="160px" height="160px" src="/imgs/selo-wgc.png" alt="" />
-            <img
-              width="160px"
-              height="160px"
-              src="/imgs/principle-2.png"
-              alt=""
-            />
-            <img
-              width="160px"
-              height="160px"
-              src="/imgs/principle-3.png"
-              alt=""
-            />
+          <div class="images">
+            <img src="/imgs/selo-wgc.png" alt="" />
+            <img src="/imgs/principle-2.png" alt="" />
+            <img src="/imgs/principle-3.png" alt="" />
           </div>
         </div>
       </div>
     </section>
 
-    <section>
-      <div class="container contact">
+    <section class="contact">
+      <div class="container contact-bg">
         <div class="contact-container">
           <div class="content">
             <h2 class="font-roboto-slab-ultra-bold-32px">
@@ -331,7 +333,9 @@
                 placeholder="E-mail"
               />
             </div>
-            <button class="font-roboto-slab-ultra-bold-14px">Cadastrar</button>
+            <button class="font-roboto-slab-ultra-bold-14px btn-color-black">
+              Cadastrar
+            </button>
           </div>
         </div>
       </div>
@@ -339,64 +343,68 @@
 
     <footer class="footer-bg">
       <div class="container">
-        <div class="footer">
-          <img width="88px" height="34px" src="/imgs/Grupo 550.png" alt="" />
-
-          <div class="nerdweb">
-            <h2 class="font-roboto-slab-ultra-bold-18px">NERDWEB</h2>
-            <ul>
-              <li class="font-roboto-slab-medium-14px">
-                <a href="#home">Sobre</a>
-              </li>
-              <li class="font-roboto-slab-medium-14px">
-                <a href="#about">Nossos Princípios</a>
-              </li>
-              <li class="font-roboto-slab-medium-14px">
-                <a href="#gallery">Funcionários</a>
-              </li>
-              <li class="font-roboto-slab-medium-14px">
-                <a href="#blog">Trabalhe Conosco</a>
-              </li>
-            </ul>
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img width="88px" height="34px" src="/imgs/Grupo 550.png" alt="" />
           </div>
 
-          <div class="ajuda">
-            <h2 class="font-roboto-slab-ultra-bold-18px">AJUDA</h2>
-            <ul>
-              <li class="font-roboto-slab-medium-14px">
-                <a href="#home">Prazos e Entregas</a>
-              </li>
-              <li class="font-roboto-slab-medium-14px">
-                <a href="#about">Troca e Devoluções</a>
-              </li>
-              <li class="font-roboto-slab-medium-14px">
-                <a href="#gallery">Políticas de Privacidade</a>
-              </li>
-            </ul>
-          </div>
+          <div class="inner-links">
+            <div class="nerdweb">
+              <h2 class="font-roboto-slab-ultra-bold-18px">NERDWEB</h2>
+              <ul>
+                <li class="font-roboto-slab-medium-14px">
+                  <a href="#home">Sobre</a>
+                </li>
+                <li class="font-roboto-slab-medium-14px">
+                  <a href="#about">Nossos Princípios</a>
+                </li>
+                <li class="font-roboto-slab-medium-14px">
+                  <a href="#gallery">Funcionários</a>
+                </li>
+                <li class="font-roboto-slab-medium-14px">
+                  <a href="#blog">Trabalhe Conosco</a>
+                </li>
+              </ul>
+            </div>
 
-          <div class="atendimento">
-            <h2 class="font-roboto-slab-ultra-bold-18px">ATENDIMENTO</h2>
-            <ul>
-              <li class="font-roboto-slab-medium-14px">
-                <a href="#home">Dúvidas Frequentes</a>
-              </li>
-              <li class="font-roboto-slab-medium-14px">
-                <a href="#about">(41) 3333-3333</a>
-              </li>
-              <li class="font-roboto-slab-medium-14px">
-                <a href="#gallery">teste@nerdweb.com.br</a>
-              </li>
-            </ul>
-          </div>
+            <div class="ajuda">
+              <h2 class="font-roboto-slab-ultra-bold-18px">AJUDA</h2>
+              <ul>
+                <li class="font-roboto-slab-medium-14px">
+                  <a href="#home">Prazos e Entregas</a>
+                </li>
+                <li class="font-roboto-slab-medium-14px">
+                  <a href="#about">Troca e Devoluções</a>
+                </li>
+                <li class="font-roboto-slab-medium-14px">
+                  <a href="#gallery">Políticas de Privacidade</a>
+                </li>
+              </ul>
+            </div>
 
-          <div class="horario">
-            <h2 class="font-roboto-slab-ultra-bold-18px">
-              HORÁRIO DE ATENDIMENTO
-            </h2>
-            <p class="font-roboto-slab-medium-14px">
-              De segunda a sexta-feira das 08h00 às 12h00 e das 13h00 às 17h40
-            </p>
+            <div class="atendimento">
+              <h2 class="font-roboto-slab-ultra-bold-18px">ATENDIMENTO</h2>
+              <ul>
+                <li class="font-roboto-slab-medium-14px">
+                  <a href="#home">Dúvidas Frequentes</a>
+                </li>
+                <li class="font-roboto-slab-medium-14px">
+                  <a href="#about">(41) 3333-3333</a>
+                </li>
+                <li class="font-roboto-slab-medium-14px">
+                  <a href="#gallery">teste@nerdweb.com.br</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="horario">
+              <h2 class="font-roboto-slab-ultra-bold-18px">
+                HORÁRIO DE ATENDIMENTO
+              </h2>
+              <p class="font-roboto-slab-medium-14px">
+                De segunda a sexta-feira das 08h00 às 12h00 e das 13h00 às 17h40
+              </p>
+            </div>
           </div>
         </div>
 
@@ -404,42 +412,17 @@
           <p class="font-roboto-slab-medium-14px">
             2022 Nerdweb - Extreme Hosting, todos os direitos reservados.
           </p>
-          <div class="social">
+          <div class="copyright-social">
             <h2 class="font-roboto-slab-medium-20px">
               Fique em sintonia com a gente
             </h2>
 
-            <div class="social-images">
-              <img
-                width="30px"
-                height="30px"
-                src="/icones/inventory_black.svg"
-                alt=""
-              />
-              <img
-                width="30px"
-                height="30px"
-                src="/icones/inventory_black.svg"
-                alt=""
-              />
-              <img
-                width="30px"
-                height="30px"
-                src="/icones/inventory_black.svg"
-                alt=""
-              />
-              <img
-                width="30px"
-                height="30px"
-                src="/icones/inventory_black.svg"
-                alt=""
-              />
-              <img
-                width="30px"
-                height="30px"
-                src="/icones/inventory_black.svg"
-                alt=""
-              />
+            <div class="copyright-social-images">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-youtube"></i>
             </div>
           </div>
         </div>

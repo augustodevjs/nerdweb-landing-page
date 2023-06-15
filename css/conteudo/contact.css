@@ -1,54 +1,98 @@
 .contact {
+    padding: 0 37px;
+    margin-bottom: 105px;
+}
+
+.content h2 {
+    font: normal normal 900 32px/38px Roboto Slab;
+    color: #033244;
+    margin-bottom: 16px;
+}
+
+.content p {
+    font: normal normal medium 20px/26px Roboto Slab;
+    color: #0089BC;
+}
+
+.contact-bg {
     background-color: #F3F3F3;
 }
 
 .contact-container {
     display: grid;
     grid-template-columns: 312px 1fr;
-    gap: 100px;
-    margin: 0 112px;
-    padding: 42px 0;
-    margin-top: 80px;
-}
-
-.contact-container .content h2 {
-    width: 312px;
-    letter-spacing: 0px;
-    color: #033244;
-    opacity: 1;
-    margin-bottom: 16px;
-}
-
-.contact-container .content p {
-    width: 312px;
-    letter-spacing: 0px;
-    color: #0089BC;
-    opacity: 1;
+    gap: 112px;
+    padding: 45px 112px 42px 112px
 }
 
 .contact-container .form div {
     display: flex;
     flex-direction: column;
-    margin-bottom: 21px;
     gap: 15px;
+    margin-bottom: 21px;
 }
 
-.contact .form div input {
-    padding: 10px;
+.contact-container .form div input {
+    padding: 12px 0 12px 24px;
+    width: -webkit-fill-available;
+    border: 1px solid #005271;
+    outline: none;
 }
 
-.contact .form div input::placeholder {
+.contact-container .form div input:focus-visible {
+    border: 1px solid #05151b;
+}
+
+.contact-container .form div input::placeholder {
     letter-spacing: 0px;
     color: #005271;
     opacity: 1;
 }
 
-.contact .form button {
-    padding: 10px 35px;
-    letter-spacing: 0px;
-    color: #033244;
-    text-transform: uppercase;
-    background: #71D8FF;
-    border: none;
-    opacity: 1;
-  }
+@media(max-width: 1200px) {
+    .contact .contact-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width: 1040px) {
+    .contact {
+        margin-bottom: 60px;
+    }
+
+    .contact .contact-container .content {
+        text-align: center;
+    }
+
+    .contact .contact-container {
+        display: flex;
+        flex-direction: column;
+        gap: 19px;
+    }
+
+    .contact-container .form div {
+        gap: 10px;
+        margin-bottom: 32px;
+    }
+
+    .contact-container .form button {
+        width: 100%;
+    }
+}
+
+@media(max-width: 750px) {
+    .contact .contact-container {
+        padding: 40px 20px;
+    }
+}
+
+@media(max-width: 500px) {
+    .content h2 {
+        font: normal normal 900 24px/26px Roboto Slab;
+    }
+
+    .content p {
+        font: normal normal 900 18px/24px Roboto Slab;
+    }
+}
