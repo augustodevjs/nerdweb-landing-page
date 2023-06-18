@@ -24,6 +24,12 @@
   color: #005271;
   margin-bottom: 6rem;
 }
+ 
+@media(max-width: 800px) {
+  .time-bg div {
+    padding: 4rem;
+  }
+}
 
 @media(max-width: 750px) {
   .time {
