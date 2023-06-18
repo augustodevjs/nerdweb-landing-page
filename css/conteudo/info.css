@@ -14,14 +14,12 @@
 }
 
 .info-content .text p {
-    color: #2C3A2F;
     margin-bottom: 2.5rem;
     margin-top: 2.8rem;
     width: 536px;
 }
 
 .info-content .text span {
-    color: #2C3A2F;
     width: 536px;
 }
 
@@ -60,8 +58,8 @@
     }
 
     .info-content .images img {
-        background: white;
-        box-shadow: 0px 3px 6px #00000029;
+        background: var(--white);
+        box-shadow: 0px 3px 6px var(--black-shadow);
         border-radius: 50%;
     }
 }

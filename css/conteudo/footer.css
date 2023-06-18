@@ -1,13 +1,13 @@
 .footer-bg {
     padding: 4.9rem 3.7rem 4.6rem 3.7rem;
-    background-color: #283137;
-    border-top: 0.5rem solid #0089BC;
+    background-color: var(--dark);
+    border-top: 0.5rem solid var(--accent);
 }
 
 .footer-content {
     display: flex;
     padding-bottom: 13.4rem;
-    border-bottom: 0.2rem solid #E1E1E1;
+    border-bottom: 0.2rem solid var(--light-gray);
 }
 
 .footer-content .footer-logo {
@@ -24,10 +24,6 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.footer-content .footer-nerdweb h2, .footer-content .footer-ajuda h2, .footer-content .footer-atendimento h2, .footer-content .footer-horario h2{
-    color: #E2F7FF;
-}
-
 .footer-content .footer-horario h2 {
     width: max-content;
 }
@@ -40,7 +36,6 @@
 }
 
 .footer-content div ul li {
-    color: #00AEEF;
     transition: all 0.2s;
 }
 
@@ -51,7 +46,6 @@
 .footer-content .footer-horario p {
     margin-top: 2.2rem;
     width: 164px;
-    color: #B2EAFF;
 }
 
 .copyright {
@@ -61,7 +55,6 @@
 
 .copyright p {
     margin-top: 2rem;
-    color: #E1E1E1;
 }
 
 .copyright .copyright-social {
@@ -69,7 +62,6 @@
 }
 
 .copyright .copyright-social h2 {
-    color: #71D8FF;
     margin-bottom: 1.5rem;
     width: max-content;
 }
@@ -81,7 +73,6 @@
 
 .copyright .copyright-social .copyright-social-images i {
     font-size: 3rem;
-    color: #71D8FF;
     transition: all .2s;;
 }
 
@@ -145,7 +136,7 @@
     }
 
     .copyright .copyright-social {
-        background-color: black;
+        background-color: var(--black);
         order: 0;
         display: flex;
         flex-direction: column;

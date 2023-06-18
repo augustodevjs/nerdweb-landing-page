@@ -4,13 +4,11 @@
 
 .servicos h2 {
     text-align: center;
-    color: #2C3A2F;
     margin-bottom: 1rem;
 }
 
 .servicos .selecao {
     text-align: center;
-    color: #0089BC;
     margin-bottom: 4rem;
 }
 
@@ -24,22 +22,19 @@
 }
 
 .card .content {
-    background-color: #283137;
+    background-color: var(--dark);
     padding: 2.4rem;
 }
 
 .card .content h3 {
-    color: #FFFFFF;
     margin-bottom: 1.6rem;
 }
 
 .card .content p {
-    color: #E2F7FF;
     margin-bottom: 4rem;
 }
 
 .card .content a {
-    color: #00AEEF;
     text-transform: uppercase;
     transition: all .2s;
 }
