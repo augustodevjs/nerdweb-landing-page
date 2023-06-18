@@ -53,3 +53,15 @@
 .font-archer-pro-bold-12px {
     font: normal normal bold 12px/15px ArcherProBold;
 }
+
+.font-sora-800 {
+    font: normal normal 800 18px/24px Sora;
+}
+
+.font-sora-normal {
+    font: normal normal normal 14px/18px Sora;
+}
+
+.font-sora-bold {
+    font: normal normal bold 14px/18px Sora;
+}

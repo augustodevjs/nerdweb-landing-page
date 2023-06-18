@@ -1,16 +1,14 @@
 .contact {
-    padding: 0 37px;
-    margin-bottom: 105px;
+    padding: 0 3.7rem;
+    margin-bottom: 10.5rem;
 }
 
-.content h2 {
-    font: normal normal 900 32px/38px Roboto Slab;
+.contact .content h2 {
     color: #033244;
-    margin-bottom: 16px;
+    margin-bottom: 1.6rem;
 }
 
-.content p {
-    font: normal normal medium 20px/26px Roboto Slab;
+.contact .content p {
     color: #0089BC;
 }
 
@@ -20,31 +18,30 @@
 
 .contact-container {
     display: grid;
-    grid-template-columns: 312px 1fr;
-    gap: 112px;
-    padding: 45px 112px 42px 112px
+    grid-template-columns: 31.2rem 1fr;
+    gap: 11.2rem;
+    padding: 4.5rem 11.2rem 4.2rem 11.2rem
 }
 
 .contact-container .form div {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 21px;
+    gap: 1.5rem;
+    margin-bottom: 2.1rem;
 }
 
 .contact-container .form div input {
-    padding: 12px 0 12px 24px;
+    padding: 1.2rem 0 1.2rem 2.4rem;
     width: -webkit-fill-available;
-    border: 1px solid #005271;
+    border: 0.1rem solid #005271;
     outline: none;
 }
 
 .contact-container .form div input:focus-visible {
-    border: 1px solid #05151b;
+    border: 0.1rem solid #05151b;
 }
 
 .contact-container .form div input::placeholder {
-    letter-spacing: 0px;
     color: #005271;
     opacity: 1;
 }
@@ -58,7 +55,7 @@
 
 @media(max-width: 1040px) {
     .contact {
-        margin-bottom: 60px;
+        margin-bottom: 6rem;
     }
 
     .contact .contact-container .content {
@@ -68,12 +65,12 @@
     .contact .contact-container {
         display: flex;
         flex-direction: column;
-        gap: 19px;
+        gap: 1.9rem;
     }
 
     .contact-container .form div {
-        gap: 10px;
-        margin-bottom: 32px;
+        gap: 1rem;
+        margin-bottom: 3.2rem;
     }
 
     .contact-container .form button {
@@ -83,16 +80,16 @@
 
 @media(max-width: 750px) {
     .contact .contact-container {
-        padding: 40px 20px;
+        padding: 4rem 2rem;
     }
 }
 
 @media(max-width: 500px) {
-    .content h2 {
-        font: normal normal 900 24px/26px Roboto Slab;
+    .contact .content h2 {
+        font: normal normal 900 2.4rem/2.6rem Roboto Slab;
     }
 
-    .content p {
-        font: normal normal 900 18px/24px Roboto Slab;
+    .contact .content p {
+        font: normal normal 900 1.8rem/2.4rem Roboto Slab;
     }
 }

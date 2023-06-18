@@ -1,41 +1,45 @@
 .footer-bg {
-    padding: 49px 37px 46px 37px;
+    padding: 4.9rem 3.7rem 4.6rem 3.7rem;
     background-color: #283137;
-    border-top: 5px solid #0089BC;
+    border-top: 0.5rem solid #0089BC;
 }
 
 .footer-content {
     display: flex;
-    padding-bottom: 134px;
-    border-bottom: 2px solid #E1E1E1;
+    padding-bottom: 13.4rem;
+    border-bottom: 0.2rem solid #E1E1E1;
 }
 
 .footer-content .footer-logo {
     width: 361px;
 }
 
-.footer-content .inner-links {
+.footer-content .footer-logo img {
+    width: 88px;
+    height: 34px;
+}
+
+.footer-content .footer-inner-links {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.footer-content .nerdweb h2, .footer-content .ajuda h2, .footer-content .atendimento h2, .footer-content .horario h2{
+.footer-content .footer-nerdweb h2, .footer-content .footer-ajuda h2, .footer-content .footer-atendimento h2, .footer-content .footer-horario h2{
     color: #E2F7FF;
 }
 
-.footer-content .horario h2 {
+.footer-content .footer-horario h2 {
     width: max-content;
 }
 
 .footer-content div ul {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin-top: 20px;
+    gap: 1rem;
+    margin-top: 2rem;
 }
 
 .footer-content div ul li {
-    letter-spacing: 0px;
     color: #00AEEF;
     transition: all 0.2s;
 }
@@ -44,10 +48,9 @@
     filter: brightness(1.15);
 }
 
-.footer-content .horario p {
-    margin-top: 22px;
+.footer-content .footer-horario p {
+    margin-top: 2.2rem;
     width: 164px;
-    letter-spacing: 0px;
     color: #B2EAFF;
 }
 
@@ -57,30 +60,33 @@
 }
 
 .copyright p {
-    margin-top: 20px;
-    letter-spacing: 0px;
+    margin-top: 2rem;
     color: #E1E1E1;
 }
 
 .copyright .copyright-social {
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 
 .copyright .copyright-social h2 {
-    letter-spacing: 0px;
     color: #71D8FF;
-    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
     width: max-content;
 }
 
 .copyright .copyright-social .copyright-social-images {
     display: flex;
-    gap: 28px
+    gap: 2.8rem;
 }
 
 .copyright .copyright-social .copyright-social-images i {
-    font-size: 30px;
+    font-size: 3rem;
     color: #71D8FF;
+    transition: all .2s;;
+}
+
+.copyright .copyright-social .copyright-social-images i:hover {
+    filter: brightness(1.1);
 }
 
 @media(max-width: 1200px) {
@@ -90,16 +96,20 @@
 }
 
 @media(max-width: 1070px) {
-    .footer-content .inner-links {
+    .footer-content .footer-inner-links {
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 32px 0;
+        gap: 3.2rem 0;
     }
 }
 
 @media(max-width: 850px) {
-    .footer-content .inner-links {
+    .footer-content .footer-inner-links {
         grid-template-columns: 1fr 1fr;
-        gap: 32px 0;
+        gap: 3.2rem 0;
+    }
+
+    .footer-content .footer-horario h2 {
+        width: 100%;
     }
 }
 
@@ -112,14 +122,14 @@
 @media(max-width: 700px) {
     .footer-content {
         display: block;
-        padding-bottom: 32px;
+        padding-bottom: 3.2rem;
     }
 
     .footer-content .footer-logo {
-        margin-bottom: 25px;
+        margin-bottom: 2.5rem;
     }
 
-    .footer-content .inner-links {
+    .footer-content .footer-inner-links {
         grid-template-columns: 1fr;
     }
 
@@ -130,7 +140,7 @@
 
     .copyright p {
         order: 1;
-        margin-top: 32px;
+        margin-top: 3.2rem;
         width: 100%;
     }
 
@@ -140,17 +150,17 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 18px 14px;
+        padding: 1.8rem 1.4rem;
     }
 }
 
 @media(max-width: 390px) {
     .copyright .copyright-social h2 {
-        font: normal normal 500 18px/20px Roboto Slab;
+        font: normal normal 500 1.8rem/2rem Roboto Slab;
     }
 
     .copyright .copyright-social .copyright-social-images i {
-        font-size: 24px;
+        font-size: 2.4rem;
     }
 }
 
@@ -158,13 +168,13 @@
     .copyright .copyright-social h2 {
         width: 100%;
         text-align: center;
-        font: normal normal 500 14px/20px Roboto Slab;
+        font: normal normal 500 1.4rem/2rem Roboto Slab;
     }
 
     .copyright .copyright-social .copyright-social-images {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 16px;
+        gap: 1.6rem;
     }
 
     .footer-content .horario h2 {

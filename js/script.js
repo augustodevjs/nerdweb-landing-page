@@ -1,6 +1,5 @@
 import menuHamburguer from "./module/menuHamburguer.js";
-import initGallery from "./module/gallery.js";
+import animation from './module/animation.js'
 
 menuHamburguer();
-initGallery();
-new SimpleAnime();
+animation();

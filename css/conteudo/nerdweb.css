@@ -1,6 +1,30 @@
-.nerdweb-bg {
-    background: url('/imgs/banner@2x.png');
+.nerdweb {
+    margin-bottom: 7.5rem;
+    border-bottom: 0.5rem solid #71D8FF;
+}
+
+.nerdweb img {
+    width: 100%;
     height: 653px;
     background-position: center;
     background-size: cover;
+    object-fit: cover;
+}
+
+.nerdweb img:last-child {
+    display: none;
+}
+
+@media(max-width: 750px) {
+    .nerdweb {
+        margin-bottom: 2.4rem;
+    }
+
+    .nerdweb img:first-child {
+        display: none;
+    }
+
+    .nerdweb img:last-child {
+        display: block;
+    }
 }

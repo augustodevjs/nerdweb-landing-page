@@ -1,13 +1,16 @@
+.empresa {
+  margin-bottom: 70px;
+  padding: 0 37px;
+}
+
 .empresa-container {
   display: grid;
   grid-template-columns: 312px 1fr;
-  margin-top: 75px;
 }
 
 .empresa-container .content {
   display: flex;
   flex-direction: column;
-  border-right: 2px solid #71D8FF;
 }
 
 .empresa-container .content h2 {
@@ -17,6 +20,23 @@
 
 .empresa-container .content h2 span {
   color: #00AEEF;
+}
+
+.empresa .arrow-photos {
+  display: flex;
+  gap: 20px
+}
+
+.empresa .arrow-photos div {
+  cursor: pointer;
+  padding: 6px 8px;
+  background-color: #f6f6f6;
+  border-radius: 50%;
+}
+
+.empresa .arrow-photos div i {
+  color: #005271;
+  font-size: 14px;
 }
 
 .empresa-container .content button {
@@ -39,16 +59,41 @@
 .empresa-container .empresa-images-info .card {
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 1px 3px 10px #00000014;
-  padding: 30px;
+  padding: 17px 30px 41px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .empresa-container .empresa-images-info .card h3 {
   text-align: center;
   color: #101912;
+  margin-top: 16px;
 }
 
 .empresa-container .empresa-images-info .card p {
   text-align: center;
   margin-top: 11px;
   color: #101912;
+}
+
+@media(max-width: 750px) {
+  .empresa {
+    margin-bottom: 60px;
+  }
+
+  .empresa-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .empresa-container .content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .empresa-container .content h2 {
+    font: normal normal 900 24px/26px Roboto Slab;
+  }
 }

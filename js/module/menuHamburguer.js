@@ -1,15 +1,11 @@
 export default function menuHamburguer() {
-    const btnMobile = document.querySelector('[data-btn="mobile"]');
+    const menuHamburger = document.querySelector(".menu-hamburger");
+    const navLinks = document.querySelector(".header-menu-links");
+    const header = document.querySelector(".header");
 
-    function toogleMenu(event) {
-        if(event.type === 'touchstart') {
-            event.preventDefault();
-        }
-        const nav = document.querySelector('nav');
-        nav.classList.toggle(btnMobile.dataset.btn);
-    }
-
-    btnMobile.addEventListener('click', toogleMenu);
-    btnMobile.addEventListener('touchstart', toogleMenu);
+    menuHamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('mobile-menu')
+        header.classList.toggle('mobile')
+    });
 }
 

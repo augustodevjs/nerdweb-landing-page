@@ -33,18 +33,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;700;900&family=Sora:wght@400;700;800&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <!-- <header class="header-bg">
+    <header class="header-bg">
       <div class="header container">
         <div class="header-menu-left">
-          <a href="https://stevan-klafer-portfolio.netlify.app/"
-            ><img src="./imgs/logo.png" alt="logo"
-          /></a>
-          <nav>
+          <a href="https://stevan-klafer-portfolio.netlify.app/">
+            <img src="./imgs/logo@2x.png" class="desktop-logo" alt="logo" />
+            <img src="./imgs/Grupo 549@2x.png" class="mobile-logo" alt="logo" />
+          </a>
+          <nav class="header-menu-links">
             <ul class="header-menu">
               <li>
                 <a class="font-archer-pro-normal-14px" href="#home">NerdWeb</a>
@@ -66,48 +67,102 @@
           </nav>
         </div>
         <div class="header-menu-right">
-          <span class="font-archer-pro-bold-12px">DIA A DIA</span>
+          <div class="header-menu-day">
+            <span class="font-archer-pro-bold-12px">DIA A DIA</span>
+            <i class="fa fa-caret-down" aria-hidden="true"></i>
+          </div>
           <div class="group-icon">
-            <img
-              height="32px"
-              width="32px"
-              src="./icones/account_circle_black.svg"
-              alt=""
-            />
-            <img
-              height="32px"
-              width="32px"
-              src="./icones/shopping_cart_black.svg"
-              alt=""
-            />
+            <img src="./icones/account_circle_black.svg" alt="" />
+            <img src="./icones/shopping_cart_black.svg" alt="" />
+            <i class="fa-solid fa-bars menu-hamburger"></i>
+            <i class="fa-solid fa-x menu-hamburguer-mobile menu-hamburger"></i>
           </div>
         </div>
       </div>
     </header>
 
-    <header class="header-more-info-bg">
-      <div class="header-more-info container">
-        <ul class="header-menu-more-info cor-w font-1-m">
+    <!-- <section class="more-links">
+      <div class="more-links-wrapper container">
+        <ul class="nav-links">
           <li>
-            <a class="font-archer-pro-normal-14px" href="#home">Sites</a>
+            <a class="font-archer-pro-normal-14px" href="#about">Sites</a>
+            <div class="mega-box">
+              <div class="content">
+                <div class="more-links-container">
+                  <div class="row">
+                    <header class="font-sora-800">Soluções Site</header>
+                    <ul class="mega-links sites">
+                      <li><a class="font-sora-bold" href="#">Briefing</a></li>
+                      <li><a class="font-sora-bold" href="#">Pesquisa</a></li>
+                      <li><a class="font-sora-bold" href="#">Criação</a></li>
+                      <li><a class="font-sora-bold" href="#">Veiculação</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header class="font-sora-800">
+                      Soluções por E-commerce
+                    </header>
+                    <ul class="mega-links">
+                      <li><a class="font-sora-normal" href="#">Lorem</a></li>
+                      <li><a class="font-sora-normal" href="#">Ipsum</a></li>
+                      <li><a class="font-sora-normal" href="#">Dolor</a></li>
+                      <li>
+                        <a class="font-sora-normal" href="#">Google ads</a>
+                      </li>
+                      <li>
+                        <a class="font-sora-normal" href="#"
+                          >Análise de mercado</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header class="font-sora-800">
+                      Soluções por Redes Sociais
+                    </header>
+                    <ul class="mega-links">
+                      <li><a class="font-sora-normal" href="#">Briefing</a></li>
+                      <li><a class="font-sora-normal" href="#">Pesquisa</a></li>
+                      <li><a class="font-sora-normal" href="#">Criação</a></li>
+                      <li>
+                        <a class="font-sora-normal" href="#">Veiculação</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header class="font-sora-800">
+                      Soluções por Landing Page
+                    </header>
+                    <ul class="mega-links">
+                      <li><a class="font-sora-normal" href="#">Conteúdo</a></li>
+                      <li>
+                        <a class="font-sora-normal" href="#">Relatórios</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
           </li>
           <li>
-            <a class="font-archer-pro-normal-14px" href="#about"
-              >Redes Sociais</a
-            >
+            <a class="font-archer-pro-normal-14px" href="#about">
+              Redes Sociais
+            </a>
           </li>
           <li>
-            <a class="font-archer-pro-normal-14px" href="#gallery"
-              >E-commerce</a
-            >
+            <a class="font-archer-pro-normal-14px" href="#gallery">
+              E-commerce
+            </a>
           </li>
           <li>
-            <a class="font-archer-pro-normal-14px" href="#blog">Mídia Online</a>
+            <a class="font-archer-pro-normal-14px" href="#blog">
+              Mídia Online
+            </a>
           </li>
           <li>
-            <a class="font-archer-pro-normal-14px" href="#blog"
-              >Landing Pages</a
-            >
+            <a class="font-archer-pro-normal-14px" href="#blog">
+              Landing Pages
+            </a>
           </li>
         </ul>
         <div class="header-more-info-search">
@@ -119,24 +174,27 @@
           <i class="fas fa-search"></i>
         </div>
       </div>
-    </header>
+    </section> -->
 
-    <main class="nerdweb-bg"></main>
+    <main class="nerdweb">
+      <img src="/imgs/banner.png" alt="" />
+      <img src="/imgs/banner_mobile_01.png" alt="" />
+    </main>
 
-    <section>
+    <!-- <section class="empresa">
       <div class="container">
         <div class="empresa-container">
-          <div class="content">
+          <div class="content" data-anime="left">
             <h2 class="font-roboto-slab-ultra-bold-32px">
               Descubra os serviços Nerdweb
               <span>que mais combinam com a sua empresa</span>
             </h2>
-            <button class="font-roboto-slab-ultra-bold-14px">
+            <button class="font-roboto-slab-ultra-bold-14px btn-color-black">
               VER SERVIÇOS
             </button>
           </div>
 
-          <div class="empresa-images-info">
+          <div class="empresa-images-info" data-anime="right">
             <div class="card">
               <img src="/icones/alt_route_black.svg" alt="" />
               <h3 class="font-roboto-slab-ultra-bold-16px">Título</h3>
@@ -159,38 +217,74 @@
               </p>
             </div>
           </div>
+
+          <div class="arrow-photos">
+            <div class="arrow-left">
+              <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="arrow-right">
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section class="produtos">
-      <h2 class="font-roboto-slab-ultra-bold-32px-43px">
+      <h2 class="font-roboto-slab-ultra-bold-32px-43px" data-anime="top">
         Conheça todos <span> produtos Nerdweb</span>
       </h2>
       <div class="container">
-        <div class="slider">
-          <img src="/imgs/LAPTOP@2x.png" alt="" />
-          <img src="/imgs/LAPTOP@2x.png" alt="" />
-          <img src="/imgs/LAPTOP@2x.png" alt="" />
-          <img src="/imgs/LAPTOP@2x.png" alt="" />
-          <img src="/imgs/LAPTOP@2x.png" alt="" />
-          <img src="/imgs/LAPTOP@2x.png" alt="" />
-          <img src="/imgs/LAPTOP@2x.png" alt="" />
-          <img src="/imgs/LAPTOP@2x.png" alt="" />
-          <img src="/imgs/LAPTOP@2x.png" alt="" />
+        <div class="slider" data-anime="top">
+          <div class="image">
+            <img src="/imgs/laptop-image.png" alt="laptop" />
+            <span class="font-roboto-slab-medium-14px">Sites</span>
+          </div>
+          <div class="image">
+            <img src="/imgs/phone-image.png" alt="phone" />
+            <span class="font-roboto-slab-medium-14px">E-commerce</span>
+          </div>
+          <div class="image">
+            <img src="/imgs/shop-image.png" alt="shop" />
+            <span class="font-roboto-slab-medium-14px">Redes</span>
+          </div>
+          <div class="image">
+            <img src="/imgs/laptop-image.png" alt="laptop" />
+            <span class="font-roboto-slab-medium-14px">Sites</span>
+          </div>
+          <div class="image">
+            <img src="/imgs/phone-image.png" alt="phone" />
+            <span class="font-roboto-slab-medium-14px">E-commerce</span>
+          </div>
+          <div class="image">
+            <img src="/imgs/shop-image.png" alt="shop" />
+            <span class="font-roboto-slab-medium-14px">Redes</span>
+          </div>
+          <div class="image">
+            <img src="/imgs/laptop-image.png" alt="laptop" />
+            <span class="font-roboto-slab-medium-14px">Sites</span>
+          </div>
+          <div class="image">
+            <img src="/imgs/phone-image.png" alt="phone" />
+            <span class="font-roboto-slab-medium-14px">E-commerce</span>
+          </div>
+          <div class="image">
+            <img src="/imgs/shop-image.png" alt="shop" />
+            <span class="font-roboto-slab-medium-14px">Sites</span>
+          </div>
         </div>
       </div>
 
-      <button class="font-roboto-slab-ultra-bold-14px">
-        VER TODOS PRODUTOS
-      </button>
+      <div class="button-container" data-anime="top">
+        <button class="font-roboto-slab-ultra-bold-14px btn-color-black">
+          VER TODOS PRODUTOS
+        </button>
+      </div>
     </section>
 
-    
-  -->
     <section class="time">
       <div class="container time-bg">
-        <div>
+        <div data-anime="left">
           <h2 class="font-roboto-slab-ultra-bold-32px-43px">
             Faça parte do nosso time de nerds
           </h2>
@@ -207,15 +301,17 @@
     </section>
 
     <section class="servicos">
-      <h2 class="font-roboto-slab-ultra-bold-32px-43px">Seleção de Servicos</h2>
-      <p class="selecao font-roboto-slab-medium-20px">
+      <h2 class="font-roboto-slab-ultra-bold-32px-43px" data-anime="top">
+        Seleção de Servicos
+      </h2>
+      <p class="selecao font-roboto-slab-medium-20px" data-anime="top">
         Conheça nossa seleção especial
       </p>
 
-      <div class="container">
+      <div class="container" data-anime="bottom">
         <div class="servicos-card">
           <div class="card">
-            <img src="/imgs/Imagem card serviço.png" alt="" />
+            <img src="/imgs/foto-mulher.png" alt="" />
             <div class="content">
               <h3 class="font-roboto-slab-ultra-bold-20px">
                 Serviço de teste de front-end
@@ -224,11 +320,15 @@
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy eirmod tempor invidunt ut labore et dolore magna
               </p>
-              <a href="" class="font-roboto-slab-ultra-bold-14px">CONHECER</a>
+              <a
+                href="#servicos-front-end"
+                class="font-roboto-slab-ultra-bold-14px"
+                >CONHECER</a
+              >
             </div>
           </div>
           <div class="card">
-            <img src="/imgs/Imagem card serviço-1.png" alt="" />
+            <img src="/imgs/computador.png" alt="" />
             <div class="content">
               <h3 class="font-roboto-slab-ultra-bold-20px">
                 Serviço de teste de front-end
@@ -237,11 +337,15 @@
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy eirmod tempor invidunt ut labore et dolore magna
               </p>
-              <a href="" class="font-roboto-slab-ultra-bold-14px">CONHECER</a>
+              <a
+                href="#servicos-front-end"
+                class="font-roboto-slab-ultra-bold-14px"
+                >CONHECER</a
+              >
             </div>
           </div>
           <div class="card">
-            <img src="/imgs/Imagem card serviço-2.png" alt="" />
+            <img src="/imgs/pessoas.png" alt="" />
             <div class="content">
               <h3 class="font-roboto-slab-ultra-bold-20px">
                 Serviço de teste de front-end
@@ -250,7 +354,11 @@
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy eirmod tempor invidunt ut labore et dolore magna
               </p>
-              <a href="" class="font-roboto-slab-ultra-bold-14px">CONHECER</a>
+              <a
+                href="#servicos-front-end"
+                class="font-roboto-slab-ultra-bold-14px"
+                >CONHECER</a
+              >
             </div>
           </div>
         </div>
@@ -259,7 +367,7 @@
 
     <section class="visao">
       <div class="container visao-bg">
-        <div>
+        <div data-anime="left">
           <h1 class="font-roboto-slab-ultra-bold-32px">
             Conheça a visão Nerdweb e entenda nossa história
           </h1>
@@ -278,7 +386,7 @@
       <div class="container">
         <div class="line"></div>
         <div class="info-content">
-          <div class="text">
+          <div class="text" data-anime="left">
             <p class="font-roboto-slab-ultra-bold-16px">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
               nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
@@ -299,10 +407,16 @@
               voluptua. At vero eos et accusam et.</span
             >
           </div>
-          <div class="images">
-            <img src="/imgs/selo-wgc.png" alt="" />
-            <img src="/imgs/principle-2.png" alt="" />
-            <img src="/imgs/principle-3.png" alt="" />
+          <div class="images" data-anime="right">
+            <img src="/imgs/graos-integrais-logo.png" alt="graos-integrais" />
+            <img
+              src="/imgs/certificado-produto-vegano.png"
+              alt="certificado-produto-vegano"
+            />
+            <img
+              src="/imgs/produto-organico-brasil.png"
+              alt="produto-organico-brasil"
+            />
           </div>
         </div>
       </div>
@@ -310,7 +424,7 @@
 
     <section class="contact">
       <div class="container contact-bg">
-        <div class="contact-container">
+        <div class="contact-container" data-anime="top">
           <div class="content">
             <h2 class="font-roboto-slab-ultra-bold-32px">
               Novidades e descontos especiais
@@ -345,59 +459,43 @@
       <div class="container">
         <div class="footer-content">
           <div class="footer-logo">
-            <img width="88px" height="34px" src="/imgs/Grupo 550.png" alt="" />
+            <img src="/imgs/logo-white.png" alt="logo nerdweb" />
           </div>
 
-          <div class="inner-links">
-            <div class="nerdweb">
+          <div class="footer-inner-links">
+            <div class="footer-nerdweb">
               <h2 class="font-roboto-slab-ultra-bold-18px">NERDWEB</h2>
-              <ul>
-                <li class="font-roboto-slab-medium-14px">
-                  <a href="#home">Sobre</a>
-                </li>
-                <li class="font-roboto-slab-medium-14px">
-                  <a href="#about">Nossos Princípios</a>
-                </li>
-                <li class="font-roboto-slab-medium-14px">
-                  <a href="#gallery">Funcionários</a>
-                </li>
-                <li class="font-roboto-slab-medium-14px">
-                  <a href="#blog">Trabalhe Conosco</a>
-                </li>
+              <ul class="font-roboto-slab-medium-14px">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#nossos-principios">Nossos Princípios</a></li>
+                <li><a href="#funcionarios">Funcionários</a></li>
+                <li><a href="#trabalhe-conosco">Trabalhe Conosco</a></li>
               </ul>
             </div>
 
-            <div class="ajuda">
+            <div class="footer-ajuda">
               <h2 class="font-roboto-slab-ultra-bold-18px">AJUDA</h2>
-              <ul>
-                <li class="font-roboto-slab-medium-14px">
-                  <a href="#home">Prazos e Entregas</a>
-                </li>
-                <li class="font-roboto-slab-medium-14px">
-                  <a href="#about">Troca e Devoluções</a>
-                </li>
-                <li class="font-roboto-slab-medium-14px">
-                  <a href="#gallery">Políticas de Privacidade</a>
+              <ul class="font-roboto-slab-medium-14px">
+                <li><a href="#prazo-entregas">Prazos e Entregas</a></li>
+                <li><a href="#troca-devolucoes">Troca e Devoluções</a></li>
+                <li>
+                  <a href="#politicas-de-privacidade"
+                    >Políticas de Privacidade</a
+                  >
                 </li>
               </ul>
             </div>
 
-            <div class="atendimento">
+            <div class="footer-atendimento">
               <h2 class="font-roboto-slab-ultra-bold-18px">ATENDIMENTO</h2>
-              <ul>
-                <li class="font-roboto-slab-medium-14px">
-                  <a href="#home">Dúvidas Frequentes</a>
-                </li>
-                <li class="font-roboto-slab-medium-14px">
-                  <a href="#about">(41) 3333-3333</a>
-                </li>
-                <li class="font-roboto-slab-medium-14px">
-                  <a href="#gallery">teste@nerdweb.com.br</a>
-                </li>
+              <ul class="font-roboto-slab-medium-14px">
+                <li>Dúvidas Frequentes</li>
+                <li>(41) 3333-3333</li>
+                <li>teste@nerdweb.com.br</li>
               </ul>
             </div>
 
-            <div class="horario">
+            <div class="footer-horario">
               <h2 class="font-roboto-slab-ultra-bold-18px">
                 HORÁRIO DE ATENDIMENTO
               </h2>
@@ -409,7 +507,7 @@
         </div>
 
         <div class="copyright">
-          <p class="font-roboto-slab-medium-14px">
+          <p class="font-roboto-slab-medium-14px white">
             2022 Nerdweb - Extreme Hosting, todos os direitos reservados.
           </p>
           <div class="copyright-social">
@@ -418,15 +516,39 @@
             </h2>
 
             <div class="copyright-social-images">
-              <i class="fa-brands fa-facebook"></i>
-              <i class="fa-brands fa-instagram"></i>
-              <i class="fa-brands fa-linkedin-in"></i>
-              <i class="fa-brands fa-twitter"></i>
-              <i class="fa-brands fa-youtube"></i>
+              <a
+                target="_blank"
+                href="https://www.facebook.com/nerdwebsolucoes/"
+              >
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/nerdweb/?hl=en"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/company/nerdweb/?originalSubdomain=br"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a target="_blank" href="https://twitter.com/?lang=en">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/@NerdwebSolucoes"
+              >
+                <i class="fa-brands fa-youtube"></i>
+              </a>
             </div>
           </div>
         </div>
       </div>
     </footer>
+
+    <script type="module" src="./js/script.js"></script>
   </body>
 </html>

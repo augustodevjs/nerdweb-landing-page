@@ -1,22 +1,106 @@
-.header-more-info-bg {
-  background-color: #033244
+.more-links{
+  z-index: 99;
+  width: 100%;
+  background: #033244;
 }
 
-.header-more-info {
+.more-links .more-links-wrapper{
+  position: relative;
+  padding: 28px 37px;
   display: flex;
-  justify-content: space-between;
-  padding: 28px 20px;
-}
-
-.header-menu-more-info {
-  display: flex;
-  gap: 33px;
   align-items: center;
+  justify-content: space-between;
 }
 
-.header-menu-more-info li a {
-  color: #FFFFFF;
-  text-transform: uppercase;
+ul.nav-links li:first-child a {
+  padding-left: 0;
+}
+
+.more-links-wrapper .nav-links{
+  display: flex;
+}
+.nav-links li a{
+  text-decoration: none;
+  font-size: 18px;
+  padding: 40px 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+
+.nav-links li .drop-menu,
+.nav-links li .mega-box{
+  transition: all 0.3s ease;
+  top: 98px;
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.mega-box{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: 0 30px;
+  top: 98px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.mega-box .content{
+  border-top: 4px solid #00AEEF;
+  background: white;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+}
+
+.more-links-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 28px 80px 57px 123px;
+  gap: 100px;
+}
+
+.row .mega-links {
+  display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 12px;
+}
+
+.row .mega-links li {
+  width: max-content;
+}
+
+.content .more-links-container .row header {
+  color: #005271;
+}
+
+.content .row header::after {
+  content: '';
+  display: block;
+  width: 63px;
+  height: 1px;
+  background: #C4C4C9;
+  margin-top: 12px;
+}
+
+.row .sites ul li {
+  color: #033244;
+}
+
+.row .mega-links li a{
+  padding: 0px;
+  padding: 0 20px;
+  font-size: 17px;
+  display: block;
+}
+
+.header-more-info-search {
+  display: flex;
+  position: relative;
 }
 
 .header-more-info-search input::placeholder {
@@ -29,5 +113,16 @@
   border: 1px solid #00AEEF;
   border-radius: 8px;
   opacity: 1;
+  text-overflow: ellipsis;
   padding: 12px 15px;
+  width: 238px;
 }
+
+.header-more-info-search i {
+  position: absolute;
+  right: 0;
+  margin-right: 14px;
+  margin-top: 13px;
+  color: white;
+}
+

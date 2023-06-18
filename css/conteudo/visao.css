@@ -1,40 +1,36 @@
 .visao {
-    margin-bottom: 80px;
+    margin-bottom: 8rem;
 }
 
 .visao-bg {
-    background: url('/imgs/BG\ CONHEÇA.png');
+    background: url('/imgs/conheça.png');
     background-position: center;
     background-size: cover;
 }
 
 .visao-bg div {
-    padding: 71px 0 100px 109px;
+    padding: 7.1rem 0 10rem 10.9rem;
 }
 
 .visao-bg h1 {
-    letter-spacing: 0px;
     color: #FFFFFF;
-    opacity: 1;
     width: 551px;
-    padding-bottom: 16px;
+    padding-bottom: 1.6rem;
 }
 
 .visao-bg p {
     width: 607px;
-    letter-spacing: 0px;
     color: #71D8FF;
-    opacity: 1;
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
 }
 
 @media(max-width: 750px) {
     .visao {
-        margin-bottom: 32px;
+        margin-bottom: 3.2rem;
     }
 
     .visao-bg div {
-        padding: 40px 64px;
+        padding: 4rem 6.4rem;
     }
 
     .visao .visao-bg div {
@@ -54,24 +50,24 @@
     }
 
     .visao-bg h1 {
-        padding-bottom: 15px;
+        padding-bottom: 1.5rem;
     }
 
     .visao-bg p {
-        margin-bottom: 32px;
+        margin-bottom: 3.2rem;
     }
 }
 
 @media(max-width: 450px) {
     .visao-bg h1 {
-        font: normal normal 900 24px/26px Roboto Slab;
+        font: normal normal 900 2.4rem/2.6rem Roboto Slab;
     }
 
     .visao-bg p {
-        font: normal normal 500 18px/20px Roboto Slab;
+        font: normal normal 500 1.8rem/2rem Roboto Slab;
     }
 
     .visao-bg div {
-        padding: 40px 20px;
+        padding: 4rem 2rem;
     }
 }
