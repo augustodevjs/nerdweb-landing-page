@@ -1,67 +1,67 @@
 .font-roboto-slab-bold-18px {
-    font: normal normal bold 18px/24px Roboto Slab;
+    font: normal normal bold 1.8rem/2.4rem Roboto Slab;
 }
 
 .font-roboto-slab-ultra-bold-16px {
-    font: normal normal 900 16px/21px Roboto Slab;
+    font: normal normal 900 1.6rem/2.1rem Roboto Slab;
 }
 
 .font-roboto-slab-ultra-bold-14px {
-    font: normal normal 900 14px/19px Roboto Slab;
+    font: normal normal 900 1.4rem/1.9rem Roboto Slab;
 }
 
 .font-roboto-slab-ultra-bold-18px {
-    font: normal normal 900 18px/24px Roboto Slab;
+    font: normal normal 900 1.8rem/2.4rem Roboto Slab;
 }
 
 .font-roboto-slab-ultra-bold-20px {
-    font: normal normal 900 20px/26px Roboto Slab;
+    font: normal normal 900 2rem/2.6rem Roboto Slab;
 }
 
 .font-roboto-slab-ultra-bold-32px {
-    font: normal normal 900 32px/38px Roboto Slab;
+    font: normal normal 900 3.2rem/3.8rem Roboto Slab;
 }
 
 .font-roboto-slab-ultra-bold-32px-43px {
-    font: normal normal 900 32px/43px Roboto Slab;
+    font: normal normal 900 3.2rem/4.3rem Roboto Slab;
 }
 
 .font-roboto-slab-medium-20px {
-    font: normal normal 500 20px/26px Roboto Slab;
+    font: normal normal 500 2rem/2.6rem Roboto Slab;
 }
 
 .font-roboto-slab-medium-14px {
-    font: normal normal 500 14px/19px Roboto Slab;
+    font: normal normal 500 1.4rem/1.9rem Roboto Slab;
 }
 
 .font-roboto-slab-medium-15px {
-    font: normal normal 500 15px/20px Roboto Slab;
+    font: normal normal 500 1.5rem/2rem Roboto Slab;
 }
 
 .font-roboto-slab-light-16px {
-    font: normal normal 300 16px/21px Roboto Slab;
+    font: normal normal 300 1.6rem/2.1rem Roboto Slab;
 }
 
 .font-roboto-slab-light-15px {
-    font: normal normal 300 15px/24px Roboto Slab;
+    font: normal normal 300 1.5rem/2.4rem Roboto Slab;
 }
 
 .font-archer-pro-normal-14px {
-    font: normal normal normal 14px/16px ArcherPro;
+    font: normal normal normal 1.4rem/1.6rem ArcherPro;
 }
 
 .font-archer-pro-bold-12px {
-    font: normal normal bold 12px/15px ArcherProBold;
+    font: normal normal bold 1.2rem/1.5rem ArcherProBold;
 }
 
 .font-sora-800 {
-    font: normal normal 800 18px/24px Sora;
+    font: normal normal 800 1.8rem/2.4rem Sora;
 }
 
 .font-sora-normal {
-    font: normal normal normal 14px/18px Sora;
+    font: normal normal normal 1.4rem/1.8rem Sora;
 }
 
 .font-sora-bold {
-    font: normal normal bold 14px/18px Sora;
+    font: normal normal bold 1.4rem/1.8rem Sora;
 }
