@@ -3,7 +3,7 @@
 }
 
 .visao-bg {
-    background: url('/imgs/conheça.png');
+    background: url('../../imgs/conheça.png');
     background-position: center;
     background-size: cover;
 }

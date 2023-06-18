@@ -4,7 +4,7 @@
 }
 
 .time-bg {
-  background: url('/imgs/time.png');
+  background: url('../../imgs/time.png');
   background-position: center;
   background-size: cover;
 }
