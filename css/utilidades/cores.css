@@ -5,6 +5,7 @@
     --black-shadow: #00000029;
     --light: #E2F7FF;
     --mid: #B2EAFF;
+    --blue-tipography-mobile: #5EB7F2;
     --dark: #283137;
     --primary: #00AEEF;
     --transparent-black: #00000014;
@@ -15,7 +16,7 @@
     --gray-dark: #101912;
     --accent: #0089BC;
     --navy: #033244;
-    --white-bg: '#f6f6f6'
+    --white-bg: #f6f6f6;
     --forest-green: #2C3A2F;
     --ocean-blue: #005271;
     --gray: #676767;
@@ -26,6 +27,10 @@
 
 .white {
     color: var(--white);
+}
+
+.blue-tipography-mobile {
+    color: #5EB7F2;
 }
 
 .gray-text {

@@ -36,53 +36,108 @@
   </head>
   <body>
     <header class="header-bg">
-      <div class="header container">
-        <div class="header-menu-left">
-          <a href="/">
-            <img
-              src="./imgs/logo-desktop.png"
-              width="100px"
-              height="20px"
-              class="desktop-logo"
-              alt="logo"
-            />
-            <img
-              src="./imgs/logo-mobile.png"
-              width="100px"
-              height="20px"
-              class="mobile-logo"
-              alt="logo"
-            />
-          </a>
-          <nav class="header-menu-links">
-            <ul class="header-menu font-archer-pro-normal-14px">
-              <li><a href="#home">NerdWeb</a></li>
-              <li><a href="#about">Serviços</a></li>
-              <li><a href="#gallery">Blog</a></li>
-              <li><a href="#blog">Atendimento</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="header-menu-right">
-          <div class="header-menu-day">
-            <span class="font-archer-pro-bold-12px">DIA A DIA</span>
-            <i class="fa fa-caret-down" aria-hidden="true"></i>
+      <div class="container header">
+        <div class="nav-bar">
+          <div class="logo">
+            <a href="#"><img src="./imgs/logo-desktop.png" /></a>
+            <nav>
+              <ul class="header-menu font-archer-pro-normal-14px forest-green">
+                <li><a href="#nerdweb">NerdWeb</a></li>
+                <li><a href="#serviços">Serviços</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#atendimento">Atendimento</a></li>
+              </ul>
+            </nav>
           </div>
-          <div class="group-icon">
-            <img
-              src="./icones/account_circle_black.svg"
-              width="32px"
-              height="32px"
-              alt=""
-            />
-            <img
-              src="./icones/shopping_cart_black.svg"
-              width="32px"
-              height="32px"
-              alt=""
-            />
-            <i class="fa-solid fa-bars menu-hamburger"></i>
-            <i class="fa-solid fa-x menu-hamburguer-mobile menu-hamburger"></i>
+
+          <div class="menu">
+            <div class="menu-navbar">
+              <div class="menu-desktop">
+                <div class="header-menu-day">
+                  <span class="font-archer-pro-bold-12px">DIA A DIA</span>
+                  <i class="fa fa-caret-down" aria-hidden="true"></i>
+                </div>
+
+                <div class="group-icon">
+                  <img
+                    src="./icones/account_circle_black.svg"
+                    width="32px"
+                    height="32px"
+                    alt=""
+                  />
+                  <img
+                    src="./icones/shopping_cart_black.svg"
+                    width="32px"
+                    height="32px"
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <div class="menu-mobile-hamburguer">
+                <ul class="menu-mobile-ul font-archer-pro-normal-14px">
+                  <li><a href="#nerdweb">NerdWeb</a></li>
+                  <li><a href="#serviços">Serviços</a></li>
+                  <li><a href="#gallery">Blog</a></li>
+                  <li><a href="#blog">Atendimento</a></li>
+                </ul>
+
+                <div class="border"></div>
+
+                <ul class="menu-mobile-more-links">
+                  <li class="menu-mobile-dropdown">
+                    <a href="#sites"
+                      >Sites
+                      <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </a>
+
+                    <div class="dropdown">
+                      <ul>
+                        <li><a href="">Soluções Site</a></li>
+                        <li><a href="">Soluções por E-commerce</a></li>
+                        <li><a href="">Soluções por Redes Sociais</a></li>
+                        <li><a href="">Soluções por Landing Page</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#rede-sociais">Redes Sociais</a></li>
+                  <li><a href="#ecommerce">E-commerce</a></li>
+                  <li><a href="#midia">Mídia Online</a></li>
+                  <li><a href="#landing-pages">Landing Pages</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="close-menu">
+              <i
+                class="fa-solid fa-x menu-hamburguer-mobile menu-hamburger-close"
+              ></i>
+            </div>
+
+            <a href="#" class="logo-mobile">
+              <img src="./imgs/logo-mobile.png" />
+            </a>
+          </div>
+
+          <div class="menu-right">
+            <div class="group-icon">
+              <img
+                src="./icones/account_circle_black.svg"
+                width="32px"
+                height="32px"
+                alt=""
+              />
+              <img
+                src="./icones/shopping_cart_black.svg"
+                width="32px"
+                height="32px"
+                alt=""
+              />
+            </div>
+
+            <div class="menu-hamburger-open">
+              <i class="fa-solid fa-bars"></i>
+            </div>
           </div>
         </div>
       </div>
@@ -195,7 +250,7 @@
 
     <section class="empresa">
       <div class="container">
-        <div class="empresa-container" data-anime="top">
+        <div class="empresa-container" data-anime="left">
           <div class="content">
             <h2 class="font-roboto-slab-ultra-bold-32px navy">
               Descubra os serviços Nerdweb

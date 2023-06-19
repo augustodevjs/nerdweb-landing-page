@@ -1,11 +1,22 @@
 export default function menuHamburguer() {
-    const menuHamburger = document.querySelector(".menu-hamburger");
-    const navLinks = document.querySelector(".header-menu-links");
-    const header = document.querySelector(".header");
+    const dropdown = document.querySelector(".menu-mobile-dropdown a");
+    const dropdownmenu = document.querySelector(".menu-mobile-dropdown .dropdown");
+    const menuMobile = document.querySelector('.header .nav-bar .menu');
+    const menuHamburguerOpen = document.querySelector('.menu-hamburger-open');
+    const menuHamburguerClose = document.querySelector('.menu-hamburger-close');
 
-    menuHamburger.addEventListener('click', () => {
-        navLinks.classList.toggle('mobile-menu')
-        header.classList.toggle('mobile')
+    console.log(menuMobile)
+  
+    dropdown.addEventListener('click', () => {
+      dropdownmenu.classList.toggle('show');
     });
+
+    menuHamburguerOpen.addEventListener('click', () => {
+        menuMobile.classList.add('mobile-navbar')
+    })
+
+    menuHamburguerClose.addEventListener('click', () => {
+        menuMobile.classList.remove('mobile-navbar')
+    })
 }
 
