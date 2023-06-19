@@ -11,17 +11,16 @@ export default function carrousel() {
     keyboard: true,
 
     breakpoints: {
-      500: {
-        slidesPerView: 1,
-      },
       700: {
         slidesPerView: 1,
       },
-      950: {
+      960: {
         slidesPerView: 2,
       },
-
-      1200: {
+      1050: {
+        slidesPerView: 2.3,
+      },
+      1230: {
         slidesPerView: 3,
       }
     },

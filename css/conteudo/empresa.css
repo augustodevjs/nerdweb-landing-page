@@ -82,7 +82,15 @@
   padding: 17px 16px 24px 16px;
 }
 
-@media(max-width: 650px) {
+.empresa .empresa-container .swiper .swiper-slide .project-img h3, .empresa .empresa-container .swiper .swiper-slide .project-img img {
+  margin-bottom: 0.8rem;
+}
+
+.empresa .empresa-container .swiper .swiper-slide .project-img p {
+  width: 223px;
+}
+
+@media(max-width: 700px) {
   .empresa {
     margin-bottom: 60px;
   }
@@ -122,6 +130,11 @@
 
   .empresa .empresa-container .button-mobile {
     display: block;
+  }
+  
+  .empresa .empresa-container .swiper .swiper-slide {
+    display: flex !important;
+    gap: 10px !important;
   }
 
   .empresa .empresa-container .swiper .swiper-slide .project-img img {
