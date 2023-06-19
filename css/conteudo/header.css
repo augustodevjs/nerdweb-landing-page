@@ -1,5 +1,6 @@
 .header-bg {
     background-color: var(--white);
+    border-bottom: 3px solid var(--highlight);
 }
 
 .header {
@@ -123,6 +124,10 @@
     display: none;
 }
 
+.mobile-navbar {
+    border-top: 3px solid var(--accent);
+}
+
 @media(max-width: 810px) {
     .menu-desktop {
         display: none;
@@ -191,6 +196,7 @@
 
     .mobile-navbar {
         right: 0;
+        overflow: auto;
     }
 
     .mobile-navbar .menu-mobile-hamburguer {
@@ -243,6 +249,7 @@
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
+        padding-bottom: 2rem;
     }
 
     .mobile-navbar .menu-mobile-hamburguer .menu-mobile-more-links .menu-mobile-dropdown a {

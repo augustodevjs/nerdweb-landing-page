@@ -1,22 +1,23 @@
 export default function animation() {
-  const target = document.querySelectorAll('[data-anime]');
+  const targets = document.querySelectorAll('[data-anime]');
   const animationClass = 'animate';
 
   const throttle = (func, limit) => {
-    let inThrottle;
+    let inThrottle = false;
     return function (...args) {
-      const context = this;
       if (!inThrottle) {
-        func.apply(context, args);
+        func.apply(this, args);
         inThrottle = true;
-        setTimeout(() => (inThrottle = false), limit);
+        setTimeout(() => {
+          inThrottle = false;
+        }, limit);
       }
     };
   };
 
   const animeScroll = () => {
-    const windowTop = window.scrollY + ((window.innerHeight * 3) / 4);
-    target.forEach(function(element) {
+    const windowTop = window.scrollY + (window.innerHeight * 3) / 4;
+    targets.forEach((element) => {
       if (windowTop > element.offsetTop) {
         element.classList.add(animationClass);
       } else {
@@ -25,7 +26,7 @@ export default function animation() {
     });
   };
 
-  if (target.length) {
+  if (targets.length) {
     window.addEventListener(
       'scroll',
       throttle(() => {

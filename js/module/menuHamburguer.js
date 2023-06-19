@@ -11,10 +11,12 @@ export default function menuHamburguer() {
 
     menuHamburguerOpen.addEventListener('click', () => {
         menuMobile.classList.add('mobile-navbar')
+        document.body.style.overflow = 'hidden';
     })
 
     menuHamburguerClose.addEventListener('click', () => {
         menuMobile.classList.remove('mobile-navbar')
+        document.body.style.overflow = 'auto';
     })
 }
 
