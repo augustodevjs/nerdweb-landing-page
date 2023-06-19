@@ -5,7 +5,8 @@
 
 .empresa-container {
   display: grid;
-  grid-template-columns: 312px 1fr;
+  grid-template-columns: 312px  auto 1fr;
+  gap: 2.4rem;
 }
 
 .empresa-container .content {
@@ -49,43 +50,59 @@
   text-transform: uppercase;
 }
 
-.empresa-container .empresa-images-info {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 24px;
-  margin-left: 55px;
+.empresa .empresa-container .button-mobile {
+  display: none;
 }
 
-.empresa-container .empresa-images-info .card {
-  background: #FFFFFF 0% 0% no-repeat padding-box;
-  box-shadow: 1px 3px 10px #00000014;
-  padding: 17px 30px 41px 30px;
+.line {
+  width: 2px;
+  height: 100%;
+  background-color: #00AEEF;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 3.2rem;
+}
+
+.swiper-slide {
   display: flex;
-  flex-direction: column;
+  text-align: center;
   align-items: center;
   justify-content: center;
 }
 
-.empresa-container .empresa-images-info .card h3 {
-  text-align: center;
-  color: #101912;
-  margin-top: 16px;
+.empresa .empresa-container .swiper .swiper-slide .project-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 1px 3px 10px #00000014;
+  padding: 17px 16px 24px 16px;
 }
 
-.empresa-container .empresa-images-info .card p {
-  text-align: center;
-  margin-top: 11px;
-  color: #101912;
-}
-
-@media(max-width: 750px) {
+@media(max-width: 650px) {
   .empresa {
     margin-bottom: 60px;
+  }
+
+  .line {
+    width: 138px;
+    height: 2px;
+    background-color: #00AEEF;
+    margin-bottom: 2.4rem;
   }
 
   .empresa-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  .swiper-wrapper {
+    height: 225px !important;
   }
 
   .empresa-container .content {
@@ -94,6 +111,47 @@
   }
 
   .empresa-container .content h2 {
+    width: 100%;
     font: normal normal 900 24px/26px Roboto Slab;
+    margin-bottom: 1.6rem;
+  }
+
+  .empresa-container .content button {
+    display: none;
+  }
+
+  .empresa .empresa-container .button-mobile {
+    display: block;
+  }
+
+  .empresa .empresa-container .swiper .swiper-slide .project-img img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 0.8rem;
+  }
+
+  .empresa .empresa-container .swiper .swiper-slide .project-img h3 {
+    margin-bottom: 0.8rem;
+  } 
+  
+  .empresa .empresa-container .swiper .swiper-slide .project-img p {
+    width: 200px;
+  }
+
+  .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after, .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    font-size: 15px !important;
+    padding: 8px;
+    background-color: #f6f6f6;
+    border-radius: 50%;
+    font-weight: 900;
+    color: var(--ocean-blue);
+  }
+}
+
+@media(max-width: 420px) {
+  .empresa .empresa-container .swiper .swiper-slide .project-img {
+    background: none;
+    box-shadow: none;
+    padding: 0;
   }
 }

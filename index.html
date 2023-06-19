@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NerdWeb</title>
+    <meta
+      name="description"
+      content="Marketing Digital para Marcas e Empresas. Fale com um consultor e conheça as melhores opções de marketing digital para marca. Mídia Programática. Leads Qualificados."
+    />
 
     <link rel="preload" href="./css/style.css" as="style" />
     <link rel="stylesheet" href="./css/style.css" />
@@ -17,8 +21,14 @@
       referrerpolicy="no-referrer"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;700;900&family=Sora:wght@400;700;800&display=swap"
       rel="stylesheet"
@@ -28,9 +38,13 @@
     <header class="header-bg">
       <div class="header container">
         <div class="header-menu-left">
-          <a href="https://stevan-klafer-portfolio.netlify.app/">
-            <img src="./imgs/logo@2x.png" class="desktop-logo" alt="logo" />
-            <img src="./imgs/Grupo 549@2x.png" class="mobile-logo" alt="logo" />
+          <a href="/">
+            <img
+              src="./imgs/logo-desktop.png"
+              class="desktop-logo"
+              alt="logo"
+            />
+            <img src="./imgs/logo-mobile.png" class="mobile-logo" alt="logo" />
           </a>
           <nav class="header-menu-links">
             <ul class="header-menu">
@@ -68,62 +82,67 @@
       </div>
     </header>
 
-    <!-- <section class="more-links">
+    <section class="more-links">
       <div class="more-links-wrapper container">
-        <ul class="nav-links">
+        <ul class="nav-links white">
           <li>
-            <a class="font-archer-pro-normal-14px" href="#about">Sites</a>
+            <div class="sites-dropdown">
+              <a class="font-archer-pro-normal-14px white" href="#sites"
+                >Sites
+                <i class="fa fa-caret-up" aria-hidden="true"></i>
+              </a>
+            </div>
             <div class="mega-box">
               <div class="content">
                 <div class="more-links-container">
                   <div class="row">
-                    <header class="font-sora-800">Soluções Site</header>
-                    <ul class="mega-links sites">
-                      <li><a class="font-sora-bold" href="#">Briefing</a></li>
-                      <li><a class="font-sora-bold" href="#">Pesquisa</a></li>
-                      <li><a class="font-sora-bold" href="#">Criação</a></li>
-                      <li><a class="font-sora-bold" href="#">Veiculação</a></li>
+                    <header class="font-sora-800 ocean-blue solucoes">
+                      Soluções Site
+                    </header>
+                    <ul class="mega-links bold navy">
+                      <li><a href="#briefing">Briefing</a></li>
+                      <li><a href="#pesquisa">Pesquisa</a></li>
+                      <li><a href="#criacao">Criação</a></li>
+                      <li><a href="#veiculação">Veiculação</a></li>
                     </ul>
                   </div>
                   <div class="row">
-                    <header class="font-sora-800">
+                    <header class="font-sora-800 ocean-blue">
                       Soluções por E-commerce
                     </header>
-                    <ul class="mega-links">
-                      <li><a class="font-sora-normal" href="#">Lorem</a></li>
-                      <li><a class="font-sora-normal" href="#">Ipsum</a></li>
-                      <li><a class="font-sora-normal" href="#">Dolor</a></li>
+                    <ul class="mega-links gray-text">
+                      <li><a href="#lorem">Lorem</a></li>
+                      <li><a href="#ipsum">Ipsum</a></li>
+                      <li><a href="#dolor">Dolor</a></li>
                       <li>
-                        <a class="font-sora-normal" href="#">Google ads</a>
+                        <a href="#google-ads">Google ads</a>
                       </li>
                       <li>
-                        <a class="font-sora-normal" href="#"
-                          >Análise de mercado</a
-                        >
+                        <a href="#analise-de-mercado">Análise de mercado</a>
                       </li>
                     </ul>
                   </div>
                   <div class="row">
-                    <header class="font-sora-800">
+                    <header class="font-sora-800 ocean-blue">
                       Soluções por Redes Sociais
                     </header>
-                    <ul class="mega-links">
-                      <li><a class="font-sora-normal" href="#">Briefing</a></li>
-                      <li><a class="font-sora-normal" href="#">Pesquisa</a></li>
-                      <li><a class="font-sora-normal" href="#">Criação</a></li>
+                    <ul class="mega-links gray-text">
+                      <li><a href="#briefing">Briefing</a></li>
+                      <li><a href="#pesquisa">Pesquisa</a></li>
+                      <li><a href="#criação">Criação</a></li>
                       <li>
-                        <a class="font-sora-normal" href="#">Veiculação</a>
+                        <a href="#veiculação">Veiculação</a>
                       </li>
                     </ul>
                   </div>
                   <div class="row">
-                    <header class="font-sora-800">
+                    <header class="font-sora-800 ocean-blue">
                       Soluções por Landing Page
                     </header>
-                    <ul class="mega-links">
-                      <li><a class="font-sora-normal" href="#">Conteúdo</a></li>
+                    <ul class="mega-links gray-text">
+                      <li><a href="#conteudo">Conteúdo</a></li>
                       <li>
-                        <a class="font-sora-normal" href="#">Relatórios</a>
+                        <a href="#relatorios">Relatórios</a>
                       </li>
                     </ul>
                   </div>
@@ -132,48 +151,43 @@
             </div>
           </li>
           <li>
-            <a class="font-archer-pro-normal-14px" href="#about">
+            <a class="font-archer-pro-normal-14px white" href="#rede-sociais">
               Redes Sociais
             </a>
           </li>
           <li>
-            <a class="font-archer-pro-normal-14px" href="#gallery">
+            <a class="font-archer-pro-normal-14px white" href="#e-commerce">
               E-commerce
             </a>
           </li>
           <li>
-            <a class="font-archer-pro-normal-14px" href="#blog">
+            <a class="font-archer-pro-normal-14px white" href="#midias-online">
               Mídia Online
             </a>
           </li>
           <li>
-            <a class="font-archer-pro-normal-14px" href="#blog">
+            <a class="font-archer-pro-normal-14px white" href="#landing-pages">
               Landing Pages
             </a>
           </li>
         </ul>
         <div class="header-more-info-search">
           <input
-            class="font-archer-pro-normal-14px"
+            class="font-archer-pro-normal-14px white"
             type="text"
             placeholder="Digite sua pesquisa"
           />
           <i class="fas fa-search"></i>
         </div>
       </div>
-    </section> -->
+    </section>
 
     <main class="nerdweb">
       <img width="100%" height="653px" src="/imgs/banner.png" alt="" />
-      <img
-        width="100%"
-        height="653px"
-        src="/imgs/banner_mobile_01.png"
-        alt=""
-      />
+      <img width="100%" height="653px" src="/imgs/banner-mobile.png" alt="" />
     </main>
 
-    <!-- <section class="empresa">
+    <section class="empresa">
       <div class="container">
         <div class="empresa-container">
           <div class="content" data-anime="left">
@@ -185,42 +199,49 @@
               VER SERVIÇOS
             </button>
           </div>
+          <div class="line"></div>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="project-img">
+                  <img src="/icones/alt_route_black.svg" alt="" />
+                  <h3 class="font-roboto-slab-ultra-bold-16px">Título</h3>
+                  <p class="font-roboto-slab-medium-15px">
+                    Dolor sit amet, consetetur sadipscing elitr, sed
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="project-img">
+                  <img src="/icones/headset_mic_black.svg" alt="" />
+                  <h3 class="font-roboto-slab-ultra-bold-16px">Serviço</h3>
+                  <p class="font-roboto-slab-medium-15px">
+                    Dolor sit amet, consetetur sadipscing elitr, sed
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="project-img">
+                  <img src="/icones/inventory_black.svg" alt="" />
+                  <h3 class="font-roboto-slab-ultra-bold-16px">Exemplo</h3>
+                  <p class="font-roboto-slab-medium-15px">
+                    Dolor sit amet, consetetur sadipscing elitr, sed
+                  </p>
+                </div>
+              </div>
+            </div>
 
-          <div class="empresa-images-info" data-anime="right">
-            <div class="card">
-              <img src="/icones/alt_route_black.svg" alt="" />
-              <h3 class="font-roboto-slab-ultra-bold-16px">Título</h3>
-              <p class="font-roboto-slab-medium-15px">
-                Dolor sit amet, consetetur sadipscing elitr, sed
-              </p>
-            </div>
-            <div class="card">
-              <img src="/icones/headset_mic_black.svg" alt="" />
-              <h3 class="font-roboto-slab-ultra-bold-16px">Serviço</h3>
-              <p class="font-roboto-slab-medium-15px">
-                Dolor sit amet, consetetur sadipscing elitr, sed
-              </p>
-            </div>
-            <div class="card">
-              <img src="/icones/inventory_black.svg" alt="" />
-              <h3 class="font-roboto-slab-ultra-bold-16px">Exemplo</h3>
-              <p class="font-roboto-slab-medium-15px">
-                Dolor sit amet, consetetur sadipscing elitr, sed
-              </p>
-            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
           </div>
-
-          <div class="arrow-photos">
-            <div class="arrow-left">
-              <i class="fa-solid fa-chevron-left"></i>
-            </div>
-            <div class="arrow-right">
-              <i class="fa-solid fa-chevron-right"></i>
-            </div>
-          </div>
+          <button
+            class="font-roboto-slab-ultra-bold-14px btn-color-black button-mobile"
+          >
+            VER SERVIÇOS
+          </button>
         </div>
       </div>
-    </section> -->
+    </section>
 
     <section class="produtos">
       <h2 class="font-roboto-slab-ultra-bold-32px-43px navy" data-anime="top">
@@ -418,7 +439,7 @@
     </section>
 
     <section class="contact">
-      <div class="container contact-bg">
+      <div class="container contact-bg" data-anime="top">
         <div class="contact-container" data-anime="top">
           <div class="content">
             <h2 class="font-roboto-slab-ultra-bold-32px navy">
@@ -546,6 +567,7 @@
       </div>
     </footer>
 
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script type="module" src="./js/script.js"></script>
   </body>
 </html>

@@ -10,6 +10,8 @@
     --transparent-black: #00000014;
     --highlight: #71D8FF;
     --gray-light: #F3F3F3;
+    --gray-text: #39393B;
+    --gray-mid: #C4C4C9;
     --gray-dark: #101912;
     --accent: #0089BC;
     --navy: #033244;
@@ -23,6 +25,10 @@
 
 .white {
     color: var(--white);
+}
+
+.gray-text {
+    color: var(--gray-text);
 }
 
 .black {
