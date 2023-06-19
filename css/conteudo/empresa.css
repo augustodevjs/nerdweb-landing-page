@@ -54,7 +54,7 @@
   display: none;
 }
 
-.line {
+.empresa .empresa-container .line {
   width: 2px;
   height: 100%;
   background-color: #00AEEF;
@@ -87,7 +87,7 @@
     margin-bottom: 60px;
   }
 
-  .line {
+  .empresa .empresa-container .line {
     width: 138px;
     height: 2px;
     background-color: #00AEEF;
