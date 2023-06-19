@@ -29,10 +29,6 @@
     color: var(--white);
 }
 
-.blue-tipography-mobile {
-    color: #5EB7F2;
-}
-
 .gray-text {
     color: var(--gray-text);
 }
@@ -99,4 +95,8 @@
 
 .light-gray {
     color: var(--light-gray);
+}
+
+.blue-tipography-mobile {
+    color: #5EB7F2;
 }

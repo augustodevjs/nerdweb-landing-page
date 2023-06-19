@@ -1,15 +1,14 @@
 export default function carrousel() {
    new Swiper(".swiper", {
-    spaceBetween: 10,
+    loop: true,
     fade: "true",
     centerSlide: "true",
-    loop: true,
+    spaceBetween: 10,
     navigation: {
       nextEl: ".button-next",
       prevEl: ".button-prev",
     },
     keyboard: true,
-
     breakpoints: {
       700: {
         slidesPerView: 1,
