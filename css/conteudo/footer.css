@@ -14,11 +14,6 @@
     width: 361px;
 }
 
-.footer-content .footer-logo img {
-    width: 88px;
-    height: 34px;
-}
-
 .footer-content .footer-inner-links {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
