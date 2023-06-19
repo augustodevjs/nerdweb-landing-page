@@ -50,6 +50,14 @@
     font: normal normal normal 1.4rem/1.6rem ArcherPro;
 }
 
+.font-archer-pro-bold-14px {
+    font: normal normal bold 1.4rem/1.6rem ArcherPro;
+}
+
 .font-archer-pro-bold-12px {
     font: normal normal bold 1.2rem/1.5rem ArcherProBold;
+}
+
+.font-sora-normal-12px {
+    font: normal normal 800 12px/18px Sora;
 }
