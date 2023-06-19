@@ -53,23 +53,23 @@
   }
 
   ::-webkit-scrollbar {
-    width: 10px;
+    width: 10re;
     height: 10px;
   }
   
   ::-webkit-scrollbar-thumb {
-    background: #0089BC;
+    background: var(--accent);
   }
   
   ::-webkit-scrollbar-track {
-    background: #E1E1E1;
+    background: var(--light-gray);
   }
 
   .btn-color-black {
     padding: 1.3rem 2.4rem;
-    color: #033244;
+    color: var(--navy);
     text-transform: uppercase;
-    background: #71D8FF;
+    background: var(--highlight);
     border: none;
     cursor: pointer;
     transition: all 0.2s;
@@ -77,8 +77,8 @@
 
   .btn-color-white {
     padding: 1rem 3.5rem;
-    background-color: #0089BC;
-    color: #FFFFFF;
+    background-color: var(--accent);
+    color: var(--white);
     text-transform: uppercase;
     border: none;
     cursor: pointer;

@@ -14,15 +14,17 @@
 }
 
 @media(max-width: 810px) {
-    .nerdweb {
-        margin-bottom: 2.4rem;
-    }
-
     .nerdweb img:first-child {
         display: none;
     }
 
     .nerdweb img:last-child {
         display: block;
+    }
+}
+
+@media(max-width: 700px) {
+    .nerdweb {
+        margin-bottom: 2.4rem;
     }
 }

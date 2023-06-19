@@ -1,12 +1,13 @@
 .empresa {
-  margin-bottom: 70px;
-  padding: 0 37px;
+  margin-bottom: 7rem;
+  padding: 0 3.7rem;
 }
 
 .empresa-container {
   display: grid;
-  grid-template-columns: 312px  auto 1fr;
+  grid-template-columns: 312px auto 1fr;
   gap: 2.4rem;
+  position: relative;
 }
 
 .empresa-container .content {
@@ -15,37 +16,13 @@
 }
 
 .empresa-container .content h2 {
-  color: #033244;
   width: 312px;
 }
 
-.empresa-container .content h2 span {
-  color: #00AEEF;
-}
-
-.empresa .arrow-photos {
-  display: flex;
-  gap: 20px
-}
-
-.empresa .arrow-photos div {
-  cursor: pointer;
-  padding: 6px 8px;
-  background-color: #f6f6f6;
-  border-radius: 50%;
-}
-
-.empresa .arrow-photos div i {
-  color: #005271;
-  font-size: 14px;
-}
-
 .empresa-container .content button {
-  margin-top: 40px;
+  margin-top: 4rem;
   width: 200px;
-  padding: 10px 35px;
-  background-color: #71D8FF;
-  color: #033244;
+  padding: 1rem 3.5rem;
   border: none;
   text-transform: uppercase;
 }
@@ -57,13 +34,12 @@
 .empresa .empresa-container .line {
   width: 2px;
   height: 100%;
-  background-color: #00AEEF;
+  background-color: var(--primary);
 }
 
 .swiper {
   width: 100%;
   height: 100%;
-  margin-bottom: 3.2rem;
 }
 
 .swiper-slide {
@@ -77,9 +53,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #FFFFFF;
+  background: var(--white);
   box-shadow: 1px 3px 10px #00000014;
-  padding: 17px 16px 24px 16px;
+  padding: 1.7rem 1.6rem 2.4rem 1.6rem;
 }
 
 .empresa .empresa-container .swiper .swiper-slide .project-img h3, .empresa .empresa-container .swiper .swiper-slide .project-img img {
@@ -90,15 +66,46 @@
   width: 223px;
 }
 
+.button-next {
+  margin-top: -3.5rem;
+  position: absolute;
+  left: 420px;
+}
+
+.button-prev {
+  position: absolute;
+  margin-top: -3.5rem;
+  left: 380px;
+}
+
+.button-next, .button-prev {
+  cursor: pointer;
+  background-color: var(--white-bg);
+  padding: 0.6rem;
+  border-radius: 50%;
+  font-weight: 900;
+  
+}
+
+.swiper-button-next, .swiper-button-prev {
+  top: 3rem !important;
+  left: 0 !important;
+  right: 0px !important; 
+}
+
+.swiper-button-next {
+  left: 4rem !important;
+}
+
 @media(max-width: 700px) {
   .empresa {
-    margin-bottom: 60px;
+    margin-bottom: 6rem;
   }
 
   .empresa .empresa-container .line {
     width: 138px;
     height: 2px;
-    background-color: #00AEEF;
+    background-color: var(--primary);
     margin-bottom: 2.4rem;
   }
 
@@ -120,7 +127,7 @@
 
   .empresa-container .content h2 {
     width: 100%;
-    font: normal normal 900 24px/26px Roboto Slab;
+    font: normal normal 900 2.4rem/2.6rem Roboto Slab;
     margin-bottom: 1.6rem;
   }
 
@@ -130,11 +137,12 @@
 
   .empresa .empresa-container .button-mobile {
     display: block;
+    margin-top: 3.2rem;
   }
   
   .empresa .empresa-container .swiper .swiper-slide {
     display: flex !important;
-    gap: 10px !important;
+    gap: 1rem !important;
   }
 
   .empresa .empresa-container .swiper .swiper-slide .project-img img {
@@ -150,13 +158,31 @@
   }
 
   .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after, .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
-    font-size: 15px !important;
-    padding: 8px;
-    background-color: #f6f6f6;
+    font-size: 1.5rem !important;
+    padding: 0.8rem;
+    background-color: var(--white-bg);
     border-radius: 50%;
     font-weight: 900;
     color: var(--ocean-blue);
   }
+
+  .button-prev {
+    position: absolute;
+    width: 18px;
+    top: 60%;
+    right: 100%;
+    left: 0;
+    z-index: 99;
+  }
+  
+  .button-next {
+    position: absolute;
+    width: 18px;
+    top: 60%;
+    left: 97%;
+    z-index: 99;
+  }
+
 }
 
 @media(max-width: 420px) {
