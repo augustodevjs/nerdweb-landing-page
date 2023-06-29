@@ -26,12 +26,17 @@ export default function animation() {
     });
   };
 
-  if (targets.length) {
+  const initAnimation = () => {
+    animeScroll(); 
     window.addEventListener(
       'scroll',
       throttle(() => {
         animeScroll();
-      }, 50)
+      }, 100)
     );
+  };
+
+  if (targets.length) {
+    window.addEventListener('load', initAnimation); 
   }
 }
