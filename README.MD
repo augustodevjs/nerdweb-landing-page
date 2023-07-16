@@ -1,18 +1,18 @@
 <h1 align="center">NerdWeb</h1>
 <h1 align="center"><img src="./imgs/nerdweb-photo.png"></h1>
 
-## 💼 Tecnologias utilizadas
+## 💼 Technologies
 
-Para o desenvolvimento deste site utilizei as seguintes tecnologias:
+For the development of this website, I used the following technologies:
 
 - HTML;
-- CSS (usei o clean-css para otimizar o código e fiz o responsivo);
-- JavaScript (utilizei módulos para organizar mais o código js);
+- CSS (I used clean-css to optimize the code and made it responsive);
+- JavaScript;
 
 ---
 
-## :airplane: Acesse o projeto
+## :airplane: Acess the project
 
-Hospedado no Netlify
+Hosted on Netlify
 
 https://nerdweb-website.netlify.app
